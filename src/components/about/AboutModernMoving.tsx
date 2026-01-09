@@ -11,7 +11,7 @@ const AboutModernMoving = () => {
                                 <span className="shape-1">
                                     <ArrowTwentyTwo direction='left' />
                                 </span>
-                                <h4 className="des-text-title">Our Vision</h4>
+                                <h4 className="des-text-title">Notre Vision</h4>
                                 <span className="shape-2">
                                     <ArrowTwentyTwo direction='right' />
                                 </span>
@@ -19,8 +19,8 @@ const AboutModernMoving = () => {
                         </div>
                         <div className="des-about-text text-center">
                             <p>
-                                With over <span>10 years</span> of experience as a versatile Front-End and Full-Stack
-                                Developer, I excel in crafting a wide range of solutions, from dynamic <span>web applications and interactive configurators</span> to robust <span>backend automation software</span>, ensuring innovative and effective outcomes for any project.
+                                Avec plus de <span>10 ans</span> d'expérience en tant que développeur Front-End et Full-Stack polyvalent,
+                                j'excelle dans la création d'une large gamme de solutions, des <span>applications web dynamiques et configurateurs interactifs</span> aux <span>logiciels d'automatisation backend robustes</span>, garantissant des résultats innovants et efficaces pour tout projet.
                             </p>
                         </div>
                     </div>

@@ -22,7 +22,7 @@ const ArchitectureHubProject = () => {
                                     <Link className="tp-btn-red-circle-icon" href="/portfolio-col-3-light">
                                         <span><ArrowFour /></span>
                                     </Link>
-                                    <Link className="tp-btn-red-circle-text" href="/portfolio-col-3-light">all projects</Link>
+                                    <Link className="tp-btn-red-circle-text" href="/portfolio-col-3-light">tous les projets</Link>
                                     <Link className="tp-btn-red-circle-icon" href="/portfolio-col-3-light">
                                         <span><ArrowFour /></span>
                                     </Link>

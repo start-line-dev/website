@@ -3,16 +3,16 @@ import { brandMarqueeSwiperParams } from '@/constants/swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 const slideTexts = [
-    "HAVE A GREAT PROJECT?",
-    "HAVE A GREAT PROJECT?",
-    "HAVE A GREAT PROJECT?",
-    "HAVE A GREAT PROJECT?",
-    "HAVE A GREAT PROJECT?",
-    "About Us",
-    "HAVE A GREAT PROJECT?",
-    "HAVE A GREAT PROJECT?",
-    "HAVE A GREAT PROJECT?",
-    "About Us",
+    "VOUS AVEZ UN GRAND PROJET ?",
+    "VOUS AVEZ UN GRAND PROJET ?",
+    "VOUS AVEZ UN GRAND PROJET ?",
+    "VOUS AVEZ UN GRAND PROJET ?",
+    "VOUS AVEZ UN GRAND PROJET ?",
+    "À propos",
+    "VOUS AVEZ UN GRAND PROJET ?",
+    "VOUS AVEZ UN GRAND PROJET ?",
+    "VOUS AVEZ UN GRAND PROJET ?",
+    "À propos",
 ];
 
 const InnerTextSlider = () => {

@@ -18,23 +18,23 @@ const HomeMainFooter:React.FC<IHomeMainFooter> = ({bgColor, buttonCls, quikLinkC
                     <div className="row align-items-center">
                         <div className="col-xl-4 col-lg-4">
                             <div className="tp-footer-widget tp-footer-col-1 pb-40 tp_fade_anim" data-delay=".3">
-                                <h4 className="tp-footer-widget-title">Helping <br /> start-ups scale & grow.</h4>
+                                <h4 className="tp-footer-widget-title">Aider les <br /> start-ups à grandir et à se développer.</h4>
                                 {/* footer social icons */}
                                 <FooterSocialIcons className={`tp-footer-widget-social ${socialBtnCls}`} />
                             </div>
                         </div>
                         <div className="col-xl-5 col-lg-4 col-md-6">
                             <div className={`tp-footer-widget ${quikLinkCls} tp-footer-col-2 pb-40 tp_fade_anim`} data-delay=".5">
-                                <h4 className="tp-footer-widget-title-sm pre mb-25">Quick links</h4>
+                                <h4 className="tp-footer-widget-title-sm pre mb-25">Liens rapides</h4>
                                 <div className="tp-footer-widget-menu">
                                     <ul>
-                                        <li><Link href="#">About</Link></li>{" "}
-                                        <li><Link href="#">Who we are</Link></li>{" "}
+                                        <li><Link href="#">À propos</Link></li>{" "}
+                                        <li><Link href="#">Qui nous sommes</Link></li>{" "}
                                         <li><Link href="#">Services</Link></li>{" "}
-                                        <li><Link href="#">Projects</Link></li>{" "}
+                                        <li><Link href="#">Projets</Link></li>{" "}
                                         <li><Link href="#">Blog</Link></li>{" "}
-                                        <li><Link href="#">Pricing</Link></li>{" "}
-                                        <li><Link href="#">Contact Us</Link></li>
+                                        <li><Link href="#">Tarifs</Link></li>{" "}
+                                        <li><Link href="#">Nous contacter</Link></li>
                                     </ul>
                                 </div>
                             </div>

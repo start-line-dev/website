@@ -64,7 +64,7 @@ const PortfolioMertoProject = () => {
                                         </h4>
                                         <span className="tp_reveal_anim">{project.services}</span>
                                         <Link className="tp-btn-sky-border height-50" href={project.link}>
-                                            View project
+                                            Voir le projet
                                         </Link>
                                     </div>
                                 </div>

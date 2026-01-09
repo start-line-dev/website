@@ -8,13 +8,13 @@ const PortfolioCopyright = () => {
                     <div className="col-lg-12">
                         <div className="pp-footer-copyright-wrap">
                             <div className="pp-footer-copyright-text">
-                                <p>© {getCurrentYear()} all rights reserved</p>
+                                <p>© {getCurrentYear()} tous droits réservés</p>
                             </div>
                             <div className="pp-footer-copyright-text-center">
-                                <p>Available for a full-time position</p>
+                                <p>Disponible pour un poste à temps plein</p>
                             </div>
                             <div className="pp-footer-copyright-text">
-                                <p>Made by Agntix.</p>
+                                <p>Réalisé par Agntix.</p>
                             </div>
                         </div> 
                     </div>

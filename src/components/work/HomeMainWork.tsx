@@ -6,8 +6,8 @@ const HomeMainWork = () => {
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="tp-work-title-box tp-panel-pin">
-                            <span className="tp-section-subtitle pre mb-20">How we Work</span>
-                            <h2 className="tp-section-title fs-140">Our <br /> design thinking process</h2>
+                            <span className="tp-section-subtitle pre mb-20">Comment nous travaillons</span>
+                            <h2 className="tp-section-title fs-140">Notre <br /> processus de design thinking</h2>
                         </div>
                     </div>
                     <div className="col-lg-6">
@@ -18,8 +18,8 @@ const HomeMainWork = () => {
                                     <i>01</i>
                                 </div>
                                 <div className="tp-work-content">
-                                    <h4 className="tp-work-title">User Research</h4>
-                                    <p>We listen stories of user to understand pain points and give a rough <br /> estimate about cost and time-frame</p>
+                                    <h4 className="tp-work-title">Recherche Utilisateur</h4>
+                                    <p>Nous écoutons les histoires des utilisateurs pour comprendre les points de friction et donner une <br /> estimation approximative du coût et du délai</p>
                                 </div>
                             </div>
                             <div className="tp-work-item tp-panel-pin mb-15">
@@ -28,8 +28,8 @@ const HomeMainWork = () => {
                                     <i>02</i>
                                 </div>
                                 <div className="tp-work-content">
-                                    <h4 className="tp-work-title">Define Problems</h4>
-                                    <p>We listen stories of user to understand pain points and give a rough <br /> estimate about cost and time-frame</p>
+                                    <h4 className="tp-work-title">Définir les Problèmes</h4>
+                                    <p>Nous écoutons les histoires des utilisateurs pour comprendre les points de friction et donner une <br /> estimation approximative du coût et du délai</p>
                                 </div>
                             </div>
                             <div className="tp-work-item tp-panel-pin mb-15">
@@ -39,7 +39,7 @@ const HomeMainWork = () => {
                                 </div>
                                 <div className="tp-work-content">
                                     <h4 className="tp-work-title">Design & Prototype</h4>
-                                    <p>We listen stories of user to understand pain points and give a rough <br /> estimate about cost and time-frame</p>
+                                    <p>Nous écoutons les histoires des utilisateurs pour comprendre les points de friction et donner une <br /> estimation approximative du coût et du délai</p>
                                 </div>
                             </div>
                             <div className="tp-work-item tp-panel-pin mb-15">
@@ -48,8 +48,8 @@ const HomeMainWork = () => {
                                     <i>04</i>
                                 </div>
                                 <div className="tp-work-content">
-                                    <h4 className="tp-work-title">Evaluation & Testing</h4>
-                                    <p>We listen stories of user to understand pain points and give a rough <br /> estimate about cost and time-frame</p>
+                                    <h4 className="tp-work-title">Évaluation & Tests</h4>
+                                    <p>Nous écoutons les histoires des utilisateurs pour comprendre les points de friction et donner une <br /> estimation approximative du coût et du délai</p>
                                 </div>
                             </div>
                         </div>

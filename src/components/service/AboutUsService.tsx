@@ -12,25 +12,25 @@ const AboutUsService = () => {
                     <div className="row align-items-end">
                         <div className="col-xl-3">
                             <div className="creative-blog-subtitle-box">
-                                <span className="tp-section-subtitle mb-20 fs-17 pre-circle">Our Services</span>
+                                <span className="tp-section-subtitle mb-20 fs-17 pre-circle">Nos Services</span>
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-7">
                             <div className="creative-blog-title-box">
                                 <h4 className="tp-section-title fs-44">
-                                    How we take your <br /> business to the next level
+                                    Comment nous faisons passer votre <br /> entreprise au niveau supérieur
                                 </h4>
                             </div>
                         </div>
                         <div className="col-xl-3 col-lg-5">
                             <div className="creative-service-top-content">
-                                <p>We are a digital marketing agency with expertise, and we’re on a mission to help you take the next step in your business.</p>
+                                <p>Nous sommes une agence de marketing digital experte, et notre mission est de vous aider à franchir la prochaine étape dans votre entreprise.</p>
                                 <Link href="/blog-grid-2-col-light" className="tp-btn-black btn-red-bg pr-15">
                                     <span className="tp-btn-black-filter-blur">
                                         <ButtonBlurFilter filterId="buttonFilter5" />
                                     </span>
                                     <span className="tp-btn-black-filter d-inline-flex align-items-center" style={{ filter: 'url(#buttonFilter5)' }}>
-                                        <span className="tp-btn-black-text">See all Articles</span>
+                                        <span className="tp-btn-black-text">Voir tous les articles</span>
                                         <span className="tp-btn-black-circle">
                                             <ArrowSvg />
                                         </span>

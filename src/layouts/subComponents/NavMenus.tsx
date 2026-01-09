@@ -48,7 +48,7 @@ export default function NavMenus() {
             {headerMenuData.map((menu) => (
                 <li
                     key={menu.id}
-                    className={`has-dropdown ${menu.megaMenu || menu.smallMenu || menu.mediumMenu ? "p-static" : ""
+                    className={`${menu.megaMenu || menu.smallMenu || menu.mediumMenu ? "p-static" : ""
                         } ${hoveredMenu === menu.id ? 'active' : ''}`}
 
                     onMouseEnter={() => setHoveredMenu(menu.id)}
@@ -56,7 +56,6 @@ export default function NavMenus() {
                 >
                     <Link href={menu.link}>
                         {menu.title}
-
                     </Link>
 
                     {menu.megaMenu || menu.smallMenu || menu.mediumMenu ? (

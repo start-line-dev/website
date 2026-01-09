@@ -8,7 +8,7 @@ const CryptoCopyright = () => {
                 <div className="row align-items-center">
                     <div className="col-12">
                         <div className="app-copyright-text text-center z-index-1">
-                            <p>© {getCurrentYear()} Copyrights by Agntix Co. All Rights Reserved. Developed by <Link className="tp-line-white" href="#">Aqlova</Link></p>
+                            <p>© {getCurrentYear()} Droits d'auteur par Agntix Co. Tous droits réservés. Développé par <Link className="tp-line-white" href="#">Aqlova</Link></p>
                         </div>
                     </div>
                 </div>

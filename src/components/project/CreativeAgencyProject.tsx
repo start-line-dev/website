@@ -32,11 +32,11 @@ const CreativeAgencyProject: React.FC<CreativeAgencyProjectProps> = (
                             <div className="studio-project-title-wrap">
                                 <div className="row align-items-end">
                                     <div className="col-xl-8 col-lg-9">
-                                        <div className="studio-project-title-box"> <h3 className="tp-section-title-clash mb-0 tp-text-revel-anim">OUR RECENT PROJECTS</h3></div>
+                                        <div className="studio-project-title-box"> <h3 className="tp-section-title-clash mb-0 tp-text-revel-anim">NOS PROJETS RÉCENTS</h3></div>
                                     </div>
                                     <div className="col-xl-4 col-lg-3">
                                         <div className="studio-project-btn text-start text-lg-end">
-                                            <Link className="tp-btn-red-border" href="/portfolio-col-3-light">Explore work</Link>
+                                            <Link className="tp-btn-red-border" href="/portfolio-col-3-light">Explorer les réalisations</Link>
                                         </div>
                                     </div>
                                 </div>

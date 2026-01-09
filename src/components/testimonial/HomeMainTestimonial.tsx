@@ -20,7 +20,7 @@ const HomeMainTestimonial = () => {
                     <div className="col-xl-6">
                         <div className="tp-testimonial-title-wrap z-index-3">
                             <div className="tp-testimonial-title-box mb-20 text-center">
-                                <h4 className="tp-section-title text-white">Client Reviews</h4>
+                                <h4 className="tp-section-title text-white">Avis Clients</h4>
                             </div>
                             <div className="tp-testimonial-ratting-box d-flex justify-content-center">
                                 <div className="tp-testimonial-ratting d-inline-flex align-items-center">
@@ -32,7 +32,7 @@ const HomeMainTestimonial = () => {
                                                 <i key={index}><StarIconThree /></i>
                                             ))}
                                         </div>
-                                        <p>Based on 24 reviews on Clutch</p>
+                                        <p>Basé sur 24 avis sur Clutch</p>
                                     </div>
                                 </div>
                             </div>

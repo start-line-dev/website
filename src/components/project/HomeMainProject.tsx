@@ -10,7 +10,7 @@ const HomeMainProject = () => {
                     <div className="row">
                         <div className="col-md-6">
                             <div className="tp-project-subtitle-wrap">
-                                <span className="tp-section-subtitle pre">Featured Projects</span>
+                                <span className="tp-section-subtitle pre">Projets en vedette</span>
                             </div>
                         </div>
                         <div className="col-md-6">
@@ -20,7 +20,7 @@ const HomeMainProject = () => {
                                         <ButtonBlurFilter filterId='buttonFilter6' />
                                     </span>
                                     <span className="tp-btn-black-filter d-inline-flex align-items-center" style={{ filter: "url(#buttonFilter6)" }}>
-                                        <span className="tp-btn-black-text">View all Works</span>
+                                        <span className="tp-btn-black-text">Voir toutes les réalisations</span>
                                         <span className="tp-btn-black-circle">
                                             <ArrowSvg />
                                         </span>

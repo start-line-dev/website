@@ -45,7 +45,7 @@ const HomeMainHeader = () => {
                                             <ButtonBlurFilter filterId="buttonFilter" />
                                         </span>
                                         <span className="tp-btn-black-filter d-inline-flex align-items-center" style={{ filter: "url(#buttonFilter" }}>
-                                            <span className="tp-btn-black-text">Start a Project</span>
+                                            <span className="tp-btn-black-text">Démarrer un projet</span>
                                             <span className="tp-btn-black-circle">
                                                 <ArrowSvg />
                                             </span>

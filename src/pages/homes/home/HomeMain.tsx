@@ -9,7 +9,6 @@ import AnimationWrapper from '@/components/shared/Animation/AnimationWrapper';
 import BackToTop from '@/components/shared/BackToTop/BackToTop';
 import HomeMainTestimonial from '@/components/testimonial/HomeMainTestimonial';
 import HomeMainTextSlider from '@/components/text-slider/HomeMainTextSlider';
-import HomeMainVideo from '@/components/video-area/HomeMainVideo';
 import HomeMainWork from '@/components/work/HomeMainWork';
 import HomeMainFooter from '@/layouts/footers/HomeMainFooter';
 import HomeMainHeader from '@/layouts/headers/HomeMainHeader';
@@ -34,7 +33,6 @@ const HomeMain = () => {
                                 <HomeMainBanner />
                                 <HomeMainTextSlider />
                                 <HomeMainService />
-                                <HomeMainVideo />
                                 <HomeMainProject />
                                 <HomeMainWork />
                                 <HomeMainTestimonial />

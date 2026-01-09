@@ -20,7 +20,7 @@ const HomeMainAbout = ({ bgColur, spacingCls = "pb-120" }: aboutPropsDT) => {
                     <div className="row">
                         <div className="col-xl-3">
                             <div className="tp-about-title-box">
-                                <span className="tp-section-subtitle pre tp_fade_anim">WHO WE ARE</span>
+                                <span className="tp-section-subtitle pre tp_fade_anim">QUI NOUS SOMMES</span>
                             </div>
                         </div>
 
@@ -28,8 +28,8 @@ const HomeMainAbout = ({ bgColur, spacingCls = "pb-120" }: aboutPropsDT) => {
                             <div className="tp-about-wrap">
                                 <div className="tp-about-text tp_fade_anim">
                                     <p>
-                                        An independent web design and branding agency in Manchester set up in 2010 who care,
-                                        build relationships, have industry experience, and win awards.
+                                        Une agence indépendante de design web et d'identité de marque à Manchester créée en 2010 qui prend soin,
+                                        construit des relations, a de l'expérience dans l'industrie et remporte des prix.
                                     </p>
                                 </div>
                                 <div className="row">
@@ -44,7 +44,7 @@ const HomeMainAbout = ({ bgColur, spacingCls = "pb-120" }: aboutPropsDT) => {
                                                 <Image className="tp_fade_anim" data-delay=".3"
                                                     data-fade-from="right" src={aboutAvater} alt="about-avater" />
                                                 <div className="tp_text_anim">
-                                                    <p>Driven by a passion for innovation, we specialize in <br /> delivering top-quality design solutions</p>
+                                                    <p>Animés par une passion pour l'innovation, nous nous spécialisons dans <br /> la livraison de solutions de design de haute qualité</p>
                                                 </div>
                                             </div>
                                             {/* counter area */}

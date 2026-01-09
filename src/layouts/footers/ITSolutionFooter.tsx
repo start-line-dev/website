@@ -21,20 +21,20 @@ const ITSolutionFooter = () => {
                                 <div className="crp-footer-logo">
                                     <Link href="/"><Image width={120} src={logoWhite} alt="logo-white" /></Link>
                                 </div>
-                                <p>With years of experience and a team <br /> of seasoned experts,</p>
+                                <p>Avec des années d'expérience et une équipe <br /> d'experts chevronnés,</p>
                                 {/* footer social icons */}
                                 <FooterSocialIcons className="crp-footer-social" />
                             </div>
                         </div>
                         <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-3">
                             <div className="crp-footer-widget crp-footer-col-2 mb-90 tp_fade_anim" data-delay=".5">
-                                <h4 className="crp-footer-widget-title">Company</h4>
+                                <h4 className="crp-footer-widget-title">Entreprise</h4>
                                 <div className="crp-footer-widget-menu">
                                     <ul>
-                                        <li><Link className="tp-line-white cream-2" href="#">Home</Link></li>
-                                        <li><Link className="tp-line-white cream-2" href="#">About Us</Link></li>
+                                        <li><Link className="tp-line-white cream-2" href="#">Accueil</Link></li>
+                                        <li><Link className="tp-line-white cream-2" href="#">À propos</Link></li>
                                         <li><Link className="tp-line-white cream-2" href="#">Services</Link></li>
-                                        <li><Link className="tp-line-white cream-2" href="#">Our works</Link></li>
+                                        <li><Link className="tp-line-white cream-2" href="#">Nos réalisations</Link></li>
                                         <li><Link className="tp-line-white cream-2" href="#">Blog Contact</Link></li>
                                     </ul>
                                 </div>
@@ -42,14 +42,14 @@ const ITSolutionFooter = () => {
                         </div>
                         <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
                             <div className="crp-footer-widget crp-footer-col-3 mb-90 tp_fade_anim" data-delay=".5">
-                                <h4 className="crp-footer-widget-title">IT Services</h4>
+                                <h4 className="crp-footer-widget-title">Services IT</h4>
                                 <div className="crp-footer-widget-menu">
                                     <ul>
-                                        <li><Link className="tp-line-white cream-2" href="#">Data Security</Link></li>
-                                        <li><Link className="tp-line-white cream-2" href="#">Cloud Services</Link></li>
-                                        <li><Link className="tp-line-white cream-2" href="#">Website Development</Link></li>
-                                        <li><Link className="tp-line-white cream-2" href="#">IT Consultation</Link></li>
-                                        <li><Link className="tp-line-white cream-2" href="#">UI/UX Design</Link></li>
+                                        <li><Link className="tp-line-white cream-2" href="#">Sécurité des données</Link></li>
+                                        <li><Link className="tp-line-white cream-2" href="#">Services cloud</Link></li>
+                                        <li><Link className="tp-line-white cream-2" href="#">Développement web</Link></li>
+                                        <li><Link className="tp-line-white cream-2" href="#">Conseil IT</Link></li>
+                                        <li><Link className="tp-line-white cream-2" href="#">Design UI/UX</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -57,14 +57,14 @@ const ITSolutionFooter = () => {
                         <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-4">
                             <div className="crp-footer-widget crp-footer-col-4 mb-90 tp_fade_anim" data-delay=".7">
                                 <div className="crp-footer-widget-info mb-40">
-                                    <h4 className="crp-footer-widget-title">Location</h4>
+                                    <h4 className="crp-footer-widget-title">Localisation</h4>
                                     <Link className="tp-line-white cream-2" href="https://www.google.com/maps" target="_blank">
-                                        Germany — 482 15h Street, Office
+                                        Allemagne — 482 15h Street, Bureau
                                         426 Berlin, De 80500
                                     </Link>
                                 </div>
                                 <div className="crp-footer-widget-info">
-                                    <h4 className="crp-footer-widget-title">Call Us on</h4>
+                                    <h4 className="crp-footer-widget-title">Appelez-nous</h4>
                                     <div className="crp-footer-widget-contact">
                                         <Link className="tp-line-white cream-2" href="mailto:hello@design.com">hello@design.com</Link>
                                     </div>
@@ -80,8 +80,8 @@ const ITSolutionFooter = () => {
                             <div className="crp-footer-big-text-wrap tp_fade_anim" data-delay=".3">
                                 <Link className="crp-footer-big-text text-center" href="/contact">
                                     <span>
-                                        <span className="text-1">{`Let's Discuss`}</span>
-                                        <span className="text-2">{`Let's Discuss`}</span>
+                                        <span className="text-1">{`Discutons-en`}</span>
+                                        <span className="text-2">{`Discutons-en`}</span>
                                     </span>
                                     <i>
                                         <ArrowSeven color='currentcolor' />
@@ -94,7 +94,7 @@ const ITSolutionFooter = () => {
                     <div className="row">
                         <div className="col-xl-12">
                             <div className="crp-copyright-text text-center pt-40 pb-50">
-                                <p>© {getCurrentYear()} – {getCurrentYear()} | All rights reserved by <Link href="#"><span>Aqlova</span></Link></p>
+                                <p>© {getCurrentYear()} – {getCurrentYear()} | Tous droits réservés par <Link href="#"><span>Aqlova</span></Link></p>
                             </div>
                         </div>
                     </div>

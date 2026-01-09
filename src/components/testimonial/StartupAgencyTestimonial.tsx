@@ -7,8 +7,8 @@ import Link from 'next/link';
 
 const RATING_BOX = {
     score: '4.9',
-    reviewCount: '( 35 REVIEWS )',
-    description: 'Enhancing top-tier companies with innovative startup and business solutions!'
+    reviewCount: '( 35 AVIS )',
+    description: 'Améliorer les entreprises de premier plan avec des solutions innovantes pour startups et entreprises !'
 };
 
 const StartupAgencyTestimonial = () => {
@@ -31,11 +31,11 @@ const StartupAgencyTestimonial = () => {
                     <div className="col-lg-12">
                         <div className="st-testimonial-heading mb-70">
                             <span className="tp-section-subtitle st tp_fade_anim" data-delay=".3">
-                                {` // OUR FEEDBACK`}
+                                {` // NOS RETOURS`}
                             </span>
                             <h3 className="tp-section-title-playfair mb-20 tp_fade_anim" data-delay=".5">
-                                WHAT THEY <br />
-                                SAY <span>ABOUT US</span>
+                                CE QU'ILS <br />
+                                DISENT <span>DE NOUS</span>
                             </h3>
                         </div>
                     </div>
@@ -55,8 +55,8 @@ const StartupAgencyTestimonial = () => {
                     <div className="col-lg-12">
                         <div className="st-testimonial-bottom text-center tp_fade_anim" data-delay=".3">
                             <span>
-                                {`Let's`} make something great work together.{' '}
-                                <Link href="/portfolio-details-creative-slider-light">Start a project</Link>
+                                {`Créons`} ensemble quelque chose de grand.{' '}
+                                <Link href="/portfolio-details-creative-slider-light">Démarrer un projet</Link>
                             </span>
                         </div>
                     </div>

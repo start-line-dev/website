@@ -7,12 +7,12 @@ const AboutStartupProject = () => {
                 <div className="row">
                     <div className="col-xl-5">
                         <div className="crp-project-title-box tp-panel-pin">
-                            <h4 className="tp-section-title-teko fs-150 mb-50 tp_fade_anim" data-delay=".3">Our recent <span>projects</span></h4>
+                            <h4 className="tp-section-title-teko fs-150 mb-50 tp_fade_anim" data-delay=".3">Nos projets <span>récents</span></h4>
                             <div className="tp_fade_anim" data-delay=".5" data-fade-from="top" data-ease="bounce">
                                 <Link className="tp-btn-yellow-border" href="/portfolio-col-3-light">
                                     <span>
-                                        <span className="text-1">See All Projects</span>
-                                        <span className="text-2">See All Projects</span>
+                                        <span className="text-1">Voir tous les projets</span>
+                                        <span className="text-2">Voir tous les projets</span>
                                     </span>
                                 </Link>
                             </div>
@@ -26,8 +26,8 @@ const AboutStartupProject = () => {
                                     <i>01</i>
                                 </div>
                                 <div className="tp-work-content">
-                                    <h4 className="tp-work-title">User Research</h4>
-                                    <p>We listen stories of user to understand pain points and give a rough <br /> estimate about cost and time-frame</p>
+                                    <h4 className="tp-work-title">Recherche Utilisateur</h4>
+                                    <p>Nous écoutons les histoires des utilisateurs pour comprendre les points de friction et donner une <br /> estimation approximative du coût et du délai</p>
                                 </div>
                             </div>
                             <div className="tp-work-item about-us-3-bg tp-panel-pin mb-15">
@@ -36,8 +36,8 @@ const AboutStartupProject = () => {
                                     <i>02</i>
                                 </div>
                                 <div className="tp-work-content">
-                                    <h4 className="tp-work-title">Define Problems</h4>
-                                    <p>We listen stories of user to understand pain points and give a rough <br /> estimate about cost and time-frame</p>
+                                    <h4 className="tp-work-title">Définir les Problèmes</h4>
+                                    <p>Nous écoutons les histoires des utilisateurs pour comprendre les points de friction et donner une <br /> estimation approximative du coût et du délai</p>
                                 </div>
                             </div>
                             <div className="tp-work-item about-us-3-bg tp-panel-pin mb-15">
@@ -47,7 +47,7 @@ const AboutStartupProject = () => {
                                 </div>
                                 <div className="tp-work-content">
                                     <h4 className="tp-work-title">Design & Prototype</h4>
-                                    <p>We listen stories of user to understand pain points and give a rough <br /> estimate about cost and time-frame</p>
+                                    <p>Nous écoutons les histoires des utilisateurs pour comprendre les points de friction et donner une <br /> estimation approximative du coût et du délai</p>
                                 </div>
                             </div>
                             <div className="tp-work-item about-us-3-bg tp-panel-pin mb-15">
@@ -56,8 +56,8 @@ const AboutStartupProject = () => {
                                     <i>04</i>
                                 </div>
                                 <div className="tp-work-content">
-                                    <h4 className="tp-work-title">Evaluation & Testing</h4>
-                                    <p>We listen stories of user to understand pain points and give a rough <br /> estimate about cost and time-frame</p>
+                                    <h4 className="tp-work-title">Évaluation & Tests</h4>
+                                    <p>Nous écoutons les histoires des utilisateurs pour comprendre les points de friction et donner une <br /> estimation approximative du coût et du délai</p>
                                 </div>
                             </div>
                         </div>

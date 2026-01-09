@@ -4,7 +4,7 @@ const headerMenuData: MenuItem[] = [
   {
     id: 2,
     hasDropdown: false,
-    title: "About Us",
+    title: "À propos",
     pluseIncon: false,
     link: "/about-us-light",
   },

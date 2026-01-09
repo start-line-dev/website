@@ -14,17 +14,17 @@ const BlogListBreadCrumb = ({ containerCls = "container-1230" }) => {
                 <div className="row justify-content-center">
                     <div className="col-xxl-12">
                         <div className="tp-blog-heading-wrap p-relative pb-130">
-                            <span className="tp-section-subtitle pre tp_fade_anim">Blog Post{" "}
+                            <span className="tp-section-subtitle pre tp_fade_anim">Article de blog{" "}
                                 <ArrowTwenty />
                             </span>
 
-                            <h3 className="tp-blog-title tp_fade_anim smooth">Best blog <Image src={aboutShape} alt="about shape" /> <br />
+                            <h3 className="tp-blog-title tp_fade_anim smooth">Meilleur blog <Image src={aboutShape} alt="about shape" /> <br />
                                 <Link href="#" onClick={(e) => {
                                     e.preventDefault();
                                     scrollToSection("#down")
                                 }}>
                                     <DownArrowTwo />
-                                </Link> of the week...</h3>
+                                </Link> de la semaine...</h3>
 
                             <div className="tp-blog-shape">
                                 <span>

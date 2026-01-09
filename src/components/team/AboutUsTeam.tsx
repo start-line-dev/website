@@ -16,7 +16,7 @@ const AboutUsTeam = () => {
                         <div className="tp-testimonial-title-wrap z-index-3">
                             <div className="tp-testimonial-title-box mb-75 text-center">
                                 <h4 className="tp-section-title text-white fs-140">
-                                    meet <br /> our team
+                                    rencontrer <br /> notre équipe
                                 </h4>
                             </div>
                         </div>

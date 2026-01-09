@@ -11,7 +11,7 @@ const ContactLocationArea = () => {
       title: "France",
       time: "12:00 pm GMT+2",
       img: contactLocation1,
-      addressTitle: "Base Create",
+      addressTitle: "Base Créative",
       address: (
         <>
           Base Creative, 43 Appleton <br /> Lane, 3287 Hamilton
@@ -25,7 +25,7 @@ const ContactLocationArea = () => {
       title: "Germany",
       time: "12:00 pm GMT+2",
       img: contactLocation2,
-      addressTitle: "Base Create",
+      addressTitle: "Base Créative",
       address: (
         <>
           Duesseldorfer Strasse 181 <br /> 40545 Duesseldorf <br /> Germany
@@ -39,7 +39,7 @@ const ContactLocationArea = () => {
       title: "New Zealand",
       time: "12:00 pm GMT+2",
       img: contactLocation3,
-      addressTitle: "Base Create",
+      addressTitle: "Base Créative",
       address: (
         <>
           1758 Berkeley <br /> St. Santa Monica, CA 90404

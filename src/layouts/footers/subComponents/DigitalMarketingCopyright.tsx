@@ -10,7 +10,7 @@ const DigitalMarketingCopyright = () => {
                 <div className="row align-items-center">
                     <div className="col-xl-4 col-lg-5 col-md-6">
                         <div className="tp-copyright-2-left text-center text-md-start z-index-1">
-                            <p>© {getCurrentYear()} <Link href="#">Agntix</Link>. All Rights Reserved.</p>
+                            <p>© {getCurrentYear()} <Link href="#">Agntix</Link>. Tous droits réservés.</p>
                         </div>
                     </div>
                     <div className="col-xl-3 col-lg-3 d-none d-lg-block">
@@ -25,8 +25,8 @@ const DigitalMarketingCopyright = () => {
                         <div className="tp-copyright-2-right">
                             <div className="tp-copyright-2-menu text-md-end text-center">
                                 <ul>
-                                    <li><Link href="#">Privacy policy </Link></li>{" "}
-                                    <li><Link href="#">Terms and conditions</Link></li>
+                                    <li><Link href="#">Politique de confidentialité </Link></li>{" "}
+                                    <li><Link href="#">Conditions générales</Link></li>
                                 </ul>
                             </div>
                         </div>

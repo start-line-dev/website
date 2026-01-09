@@ -12,13 +12,13 @@ const CorporateAgencyProject = () => {
                     <div className="col-xl-5">
                         <div className="crp-project-title-box tp-panel-pin">
                             <h4 className="tp-section-title-teko fs-150 mb-50 tp_fade_anim" data-delay=".3">
-                                Our recent <span>projects</span>
+                                Nos projets <span>récents</span>
                             </h4>
                             <div className="tp_fade_anim" data-delay=".5" data-fade-from="top" data-ease="bounce">
                                 <Link className="tp-btn-yellow-border" href="/portfolio-col-3-light">
                                     <span>
-                                        <span className="text-1">See All Projects</span>
-                                        <span className="text-2">See All Projects</span>
+                                        <span className="text-1">Voir tous les projets</span>
+                                        <span className="text-2">Voir tous les projets</span>
                                     </span>
                                 </Link>
                             </div>

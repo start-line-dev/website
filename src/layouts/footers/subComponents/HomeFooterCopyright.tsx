@@ -23,8 +23,8 @@ const HomeFooterCopyright = ({ bgColor }: { bgColor?: string }) => {
                         </div>
                         <div className="col-md-6">
                             <div className="tp-copyright-right text-center text-md-end">
-                                <Link href="#">Terms and Conditions</Link>
-                                <Link href="#">Privacy Policy</Link>
+                                <Link href="#">Conditions générales</Link>
+                                <Link href="#">Politique de confidentialité</Link>
                             </div>
                         </div>
                     </div>

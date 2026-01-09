@@ -13,14 +13,14 @@ const ContactFormArea = () => {
                     <div className="col-lg-6">
                         <div className="tp-contact-form-heading tp_fade_anim mb-50">
                             <div className="ar-about-us-4-title-box d-flex align-items-center mb-15">
-                                <span className="tp-section-subtitle pre">Contact Us</span>
+                                <span className="tp-section-subtitle pre">Nous contacter</span>
                                 <div className="ar-about-us-4-icon">
                                     <ArrowTwenty />
                                 </div>
                             </div>
-                            <h3 className="tp-section-title lts">{`Let's`} make <br />
-                                your brand <br />
-                                brilliant!</h3>
+                            <h3 className="tp-section-title lts">Rendons <br />
+                                votre marque <br />
+                                brillante !</h3>
                         </div>
                     </div>
                     <div className="col-lg-6">
@@ -29,33 +29,33 @@ const ContactFormArea = () => {
                                 <div className="row">
                                     <div className="col-lg-6">
                                         <div className="tp-contact-form-input mb-20">
-                                            <label>Full name*</label>
+                                            <label>Nom complet*</label>
                                             <input name="name" type="text" />
                                         </div>
                                     </div>
                                     <div className="col-lg-6">
                                         <div className="tp-contact-form-input mb-20">
-                                            <label>Email address*</label>
+                                            <label>Adresse e-mail*</label>
                                             <input name="email" type="email" />
                                         </div>
                                     </div>
                                     <div className="col-lg-12">
                                         <div className="tp-contact-form-input mb-20">
-                                            <label>Website link</label>
+                                            <label>Lien du site web</label>
                                             <input name="subject" type="text" />
                                         </div>
                                     </div>
                                     <div className="col-lg-12">
                                         <div className="tp-contact-form-input mb-20">
-                                            <label>How Can We Help You*
+                                            <label>Comment pouvons-nous vous aider ?*
                                             </label>
                                             <textarea name="message"></textarea>
                                         </div>
                                         <div className="tp-contact-form-btn">
                                             <button className="w-100" type="submit">
                                                 <span>
-                                                    <span className="text-1">Send Message</span>
-                                                    <span className="text-2">Send Message</span>
+                                                    <span className="text-1">Envoyer le message</span>
+                                                    <span className="text-2">Envoyer le message</span>
                                                 </span>
                                             </button>
                                             <p className="ajax-response mt-5"></p>

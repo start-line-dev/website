@@ -14,18 +14,18 @@ const AboutUsHero = () => {
                     <div className="row justify-content-center">
                         <div className="col-xl-12">
                             <div className="ar-hero-title-box tp_fade_anim" data-delay=".3">
-                                <h3 className="ar-about-us-4-title">Fueling Minds <br />
-                                    Inspiring Designs..</h3>
+                                <h3 className="ar-about-us-4-title">Alimenter les esprits <br />
+                                    Inspirer les designs..</h3>
                                 <div className="ar-about-us-4-title-box d-flex justify-content-end">
-                                    <span className="tp-section-subtitle pre">About Us</span>
+                                    <span className="tp-section-subtitle pre">À propos</span>
                                     <div className="ar-about-us-4-icon">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="81" height="9" viewBox="0 0 81 9" fill="none">
                                             <rect y="4" width="80" height="1" fill="#111013" />
                                             <path d="M77 7.96366L80.5 4.48183L77 1" stroke="#111013" strokeLinecap="round" strokeLinejoin="round" />
                                         </svg>
                                     </div>
-                                    <p>An independent web design and branding agency <br />
-                                        in Manchester set up in 2012 who care, build relationships, <br /> have industry experience, and win awards.</p>
+                                    <p>Une agence indépendante de design web et d'identité de marque <br />
+                                        à Manchester créée en 2012 qui prend soin, construit des relations, <br /> a de l'expérience dans l'industrie et remporte des prix.</p>
                                 </div>
                             </div>
                         </div>
