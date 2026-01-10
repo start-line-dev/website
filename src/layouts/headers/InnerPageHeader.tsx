@@ -1,11 +1,12 @@
 "use client"
-import logoBlack from '../../../public/assets/img/logo/logo-black.png';
 import OffCanvasPanel from '@/components/offcanvas/OffCanvasPanel';
 import useStickyHeader from '@/hooks/useStickyHeader';
-import NavMenus from '../subComponents/NavMenus';
-import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useState } from 'react';
+import logoBlack from '../../../public/assets/img/logo/logo-black.png';
+import NavMenus from '../subComponents/NavMenus';
+import { ArrowSvg, ButtonBlurFilter } from '@/svg';
 
 const InnerPageHeader = ({ containerCls = " container-1750" }) => {
     const [openOffCanvas, setOpenOffCanvas] = useState(false);
@@ -35,16 +36,25 @@ const InnerPageHeader = ({ containerCls = " container-1750" }) => {
                             </div>
                         </div>
                         <div className="col-xl-2 col-lg-6 col-6">
-                            <div className="tp-header-right text-end">
-                                <div className="tp-header-14-bar-wrap ml-20">
-                                    <button onClick={() => setOpenOffCanvas(true)} className="tp-header-8-bar tp-offcanvas-open-btn">
-                                        <span>Menu</span>{" "}
-                                        <span>
-                                            <svg width="24" height="8" viewBox="0 0 24 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M0 0H14V1.5H0V0Z" fill="currentcolor" />
-                                                <path d="M0 6H24V7.5H0V6Z" fill="currentcolor" />
-                                            </svg>
+                            <div className="tp-header-right d-flex align-items-center justify-content-end">
+                                <div className="tp-header-btn-box ml-25 d-none d-md-flex">
+                                    <Link href="/portfolio-col-2-light" className="tp-btn-black btn-red-bg">
+                                        <span className="tp-btn-black-filter-blur">
+                                            <ButtonBlurFilter filterId="buttonFilter" />
                                         </span>
+                                        <span className="tp-btn-black-filter d-inline-flex align-items-center" style={{ filter: "url(#buttonFilter" }}>
+                                            <span className="tp-btn-black-text">Démarrer un projet</span>
+                                            <span className="tp-btn-black-circle">
+                                                <ArrowSvg />
+                                            </span>
+                                        </span>
+                                    </Link>
+                                </div>
+                                <div className="tp-header-bar ml-20 d-xl-none">
+                                    <button onClick={() => setOpenOffCanvas(true)} className="tp-offcanvas-open-btn">
+                                        <i></i>
+                                        <i></i>
+                                        <i></i>
                                     </button>
                                 </div>
                             </div>

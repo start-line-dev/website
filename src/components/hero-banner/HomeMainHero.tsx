@@ -14,7 +14,7 @@ const HomeMainHero = () => {
                     <div className="col-xl-9">
                         <div className="tp-hero-title-box">
                             <h2 className="tp-hero-title tp-char-animation">
-                                Ton produit commence ici
+                                Votre produit <br /> commence <br /> ici.
                             </h2>
                         </div>
                     </div>

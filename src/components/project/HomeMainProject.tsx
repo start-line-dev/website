@@ -1,6 +1,6 @@
 import { ArrowSvg, ButtonBlurFilter } from '@/svg';
-import ProjectItem from './subComponents/ProjectItem';
 import Link from 'next/link';
+import ProjectItem from './subComponents/ProjectItem';
 
 const HomeMainProject = () => {
     return (

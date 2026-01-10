@@ -1,8 +1,8 @@
-import aboutShape from "../../../public/assets/img/home-01/about/about-shape-1.png"
-import aboutImgOne from "../../../public/assets/img/home-01/about/about-1.jpg"
-import aboutAvater from "../../../public/assets/img/home-01/about/about-avater.png"
-import HomeMainCounter from "../counter/HomeMainCounter";
 import Image from "next/image";
+import aboutImgOne from "../../../public/assets/img/home-01/about/about-1.jpg";
+import aboutAvater from "../../../public/assets/img/home-01/about/about-avater.png";
+import aboutShape from "../../../public/assets/img/home-01/about/about-shape-1.png";
+import HomeMainCounter from "../counter/HomeMainCounter";
 
 interface aboutPropsDT {
     bgColur?: string;
@@ -28,8 +28,7 @@ const HomeMainAbout = ({ bgColur, spacingCls = "pb-120" }: aboutPropsDT) => {
                             <div className="tp-about-wrap">
                                 <div className="tp-about-text tp_fade_anim">
                                     <p>
-                                        Une agence indépendante de design web et d'identité de marque à Manchester créée en 2010 qui prend soin,
-                                        construit des relations, a de l'expérience dans l'industrie et remporte des prix.
+                                        Des solutions digitales pensées pour le business, par des entrepreneurs.
                                     </p>
                                 </div>
                                 <div className="row">
@@ -44,7 +43,8 @@ const HomeMainAbout = ({ bgColur, spacingCls = "pb-120" }: aboutPropsDT) => {
                                                 <Image className="tp_fade_anim" data-delay=".3"
                                                     data-fade-from="right" src={aboutAvater} alt="about-avater" />
                                                 <div className="tp_text_anim">
-                                                    <p>Animés par une passion pour l'innovation, nous nous spécialisons dans <br /> la livraison de solutions de design de haute qualité</p>
+                                                    <p>Vous avez une idée, une opportunité ou un besoin métier.<br />
+                                                        Nous livrons un produit digital fonctionnel, monétisable et pilotable, sans que vous ayez à gérer la technique.</p>
                                                 </div>
                                             </div>
                                             {/* counter area */}

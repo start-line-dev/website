@@ -57,7 +57,7 @@ const servicesData: servicesDT[] = [
   //Home main services data start
   {
     id: 1,
-    title: "Design Web",
+    title: "Site web",
     image: service1,
     description:
       "Que vous ayez besoin de visuels époustouflants pour votre site web, de graphismes captivants pour vos supports marketing, ou de designs UI/UX innovants pour votre application, notre équipe d'experts est là pour transformer votre vision en réalité.",
@@ -71,7 +71,7 @@ const servicesData: servicesDT[] = [
   },
   {
     id: 2,
-    title: "Design de Produit",
+    title: "Application mobile",
     image: service2,
     description:
       "Nos services de design de produit se concentrent sur la création de produits intuitifs et esthétiquement agréables qui résonnent avec votre audience et se démarquent sur le marché.",
@@ -87,7 +87,7 @@ const servicesData: servicesDT[] = [
   },
   {
     id: 3,
-    title: "Développement Web",
+    title: "Cross-platform",
     image: service3,
     description:
       "Du développement de sites web et de plateformes e-commerce aux logiciels sur mesure et applications mobiles, notre équipe de développement a l'expertise pour donner vie à vos idées.",
