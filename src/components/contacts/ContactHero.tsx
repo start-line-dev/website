@@ -1,11 +1,9 @@
-import shapeCircle from '../../../public/assets/img/home-09/hero/funfact-circle-shape-2.png';
-import bgShape from '../../../public/assets/img/home-09/hero/funfact-bg-shape-2.png';
-import { EmailIcon, MessageIcon, PhoneIcon } from '@/svg/ContactIcons';
-import teamBg from '../../../public/assets/img/team/team-bg.png';
-import { CareerShape } from '@/svg/HeroShape';
 import { ArrowTwenty } from '@/svg/ArrowIcons';
-import Image from 'next/image';
+import { EmailIcon, PhoneIcon } from '@/svg/ContactIcons';
+import { CareerShape } from '@/svg/HeroShape';
 import Link from 'next/link';
+import bgShape from '../../../public/assets/img/home-09/hero/funfact-bg-shape-2.png';
+import teamBg from '../../../public/assets/img/team/team-bg.png';
 
 const ContactHero = () => {
     return (
@@ -24,8 +22,7 @@ const ContactHero = () => {
                                 </div>
                             </div>
                             <h3 className="tp-career-title fs-100 pb-30">Des questions ? <br />
-                                posez-les simplement, c'est <br />
-                                votre foyer !</h3>
+                                posez-les simplement</h3>
                         </div>
                     </div>
                 </div>
@@ -40,9 +37,6 @@ const ContactHero = () => {
                                 <div className="crp-hero-funfact-wrap crp-hero-funfact-bg z-index-1 p-relative tp_fade_anim ar-about-funfact-color" data-delay=".5"
                                     style={{ backgroundImage: `url(${bgShape.src})` }}>
                                     <div className="crp-hero-funfact-line d-none d-xl-inline-block"></div>
-                                    <div className="crp-hero-funfact-img">
-                                        <Image src={shapeCircle} alt="shape circle" />
-                                    </div>
                                     <div className="ar-about-funfact-top-content">
                                         <h4>Entrer en <br /> contact !</h4>
                                     </div>
@@ -53,7 +47,7 @@ const ContactHero = () => {
                                             </div>
                                             <div className="ar-about-funfact-item-content">
                                                 <p> Appelez-nous directement</p>
-                                                <Link className="tp-line-white" href="tel:2246767430">+(1) 224 676 7430</Link>
+                                                <Link className="tp-line-white" href="tel:+33629266539">+(33) 6 29 26 65 39</Link>
                                             </div>
                                         </div>
                                         <div className="ar-about-funfact-item d-flex align-items-center">
@@ -62,20 +56,9 @@ const ContactHero = () => {
                                             </div>
                                             <div className="ar-about-funfact-item-content">
                                                 <p>Besoin d'aide ?</p>
-                                                <Link className="tp-line-white" href="mailto:agntixs@studio.com">agntixs@studio.com</Link>
+                                                <Link className="tp-line-white" href="mailto:contact@start-line.dev">contact@start-line.dev</Link>
                                             </div>
                                         </div>
-                                        <div className="ar-about-funfact-item d-flex align-items-center">
-                                            <div className="ar-about-funfact-item-icon">
-                                                <span><MessageIcon /></span>
-                                            </div>
-                                            <div className="ar-about-funfact-item-content">
-                                                <Link className="tp-line-white" href="contact.html">Démarrer le chat</Link>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="ar-about-funfact-item-bottom">
-                                        <p>Voir nos <span>Politiques de remboursement</span> ou <span>FAQ</span></p>
                                     </div>
                                 </div>
                             </div>

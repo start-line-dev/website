@@ -1,16 +1,16 @@
-import HomeFooterCopyright from "./subComponents/HomeFooterCopyright";
-import { FooterSocialIcons } from "./subComponents/FooterSocialIcons";
 import Link from 'next/link';
 import React from 'react';
+import { FooterSocialIcons } from "./subComponents/FooterSocialIcons";
+import HomeFooterCopyright from "./subComponents/HomeFooterCopyright";
 
 interface IHomeMainFooter {
     bgColor?: string;
     buttonCls?: string;
-    quikLinkCls?:string;
-    socialBtnCls?:string
+    quikLinkCls?: string;
+    socialBtnCls?: string
 }
 
-const HomeMainFooter:React.FC<IHomeMainFooter> = ({bgColor, buttonCls, quikLinkCls="footer-main", socialBtnCls=""}) => {
+const HomeMainFooter: React.FC<IHomeMainFooter> = ({ bgColor, buttonCls, quikLinkCls = "footer-main", socialBtnCls = "" }) => {
     return (
         <>
             <div className={`tp-footer-area ${buttonCls} pb-35 pt-160`} style={{ backgroundColor: bgColor }}>
@@ -18,7 +18,7 @@ const HomeMainFooter:React.FC<IHomeMainFooter> = ({bgColor, buttonCls, quikLinkC
                     <div className="row align-items-center">
                         <div className="col-xl-4 col-lg-4">
                             <div className="tp-footer-widget tp-footer-col-1 pb-40 tp_fade_anim" data-delay=".3">
-                                <h4 className="tp-footer-widget-title">Aider les <br /> start-ups à grandir et à se développer.</h4>
+                                <h4 className="tp-footer-widget-title">Du premier sprint à la ligne d’arrivée.</h4>
                                 {/* footer social icons */}
                                 <FooterSocialIcons className={`tp-footer-widget-social ${socialBtnCls}`} />
                             </div>
@@ -56,7 +56,7 @@ const HomeMainFooter:React.FC<IHomeMainFooter> = ({bgColor, buttonCls, quikLinkC
                 </div>
             </div>
             {/* footer copyright */}
-            <HomeFooterCopyright bgColor={bgColor}/>
+            <HomeFooterCopyright bgColor={bgColor} />
         </>
     );
 };

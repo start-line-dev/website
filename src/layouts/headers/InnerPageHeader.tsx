@@ -1,12 +1,12 @@
 "use client"
 import OffCanvasPanel from '@/components/offcanvas/OffCanvasPanel';
 import useStickyHeader from '@/hooks/useStickyHeader';
+import { ArrowSvg, ButtonBlurFilter } from '@/svg';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 import logoBlack from '../../../public/assets/img/logo/logo-black.png';
 import NavMenus from '../subComponents/NavMenus';
-import { ArrowSvg, ButtonBlurFilter } from '@/svg';
 
 const InnerPageHeader = ({ containerCls = " container-1750" }) => {
     const [openOffCanvas, setOpenOffCanvas] = useState(false);
@@ -38,7 +38,7 @@ const InnerPageHeader = ({ containerCls = " container-1750" }) => {
                         <div className="col-xl-2 col-lg-6 col-6">
                             <div className="tp-header-right d-flex align-items-center justify-content-end">
                                 <div className="tp-header-btn-box ml-25 d-none d-md-flex">
-                                    <Link href="/portfolio-col-2-light" className="tp-btn-black btn-red-bg">
+                                    <Link href="/contact" className="tp-btn-black btn-red-bg">
                                         <span className="tp-btn-black-filter-blur">
                                             <ButtonBlurFilter filterId="buttonFilter" />
                                         </span>

@@ -19,8 +19,8 @@ const ContactFormArea = () => {
                                 </div>
                             </div>
                             <h3 className="tp-section-title lts">Rendons <br />
-                                votre marque <br />
-                                brillante !</h3>
+                                votre produit <br />
+                                concret !</h3>
                         </div>
                     </div>
                     <div className="col-lg-6">

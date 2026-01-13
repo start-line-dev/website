@@ -1,9 +1,9 @@
-import testimonialShape from '../../../public/assets/img/home-12/testimonial/testimonial-shape.png';
-import testimonialBg from '../../../public/assets/img/home-12/testimonial/testimonial-bg.png';
-import StatupTestimonialSlideItem from './subComponents/StatupAgencyItem';
-import StartupRatingBox from './subComponents/StartupRatingBox';
 import Image from 'next/image';
 import Link from 'next/link';
+import testimonialBg from '../../../public/assets/img/home-12/testimonial/testimonial-bg.png';
+import testimonialShape from '../../../public/assets/img/home-12/testimonial/testimonial-shape.png';
+import StartupRatingBox from './subComponents/StartupRatingBox';
+import StatupTestimonialSlideItem from './subComponents/StatupAgencyItem';
 
 const RATING_BOX = {
     score: '4.9',
@@ -56,7 +56,7 @@ const StartupAgencyTestimonial = () => {
                         <div className="st-testimonial-bottom text-center tp_fade_anim" data-delay=".3">
                             <span>
                                 {`Créons`} ensemble quelque chose de grand.{' '}
-                                <Link href="/portfolio-details-creative-slider-light">Démarrer un projet</Link>
+                                <Link href="/contact">Démarrer un projet</Link>
                             </span>
                         </div>
                     </div>

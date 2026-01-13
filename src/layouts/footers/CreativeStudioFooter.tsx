@@ -1,6 +1,6 @@
-import { FacebookTwo, TwitterTwo, DribbleTwo, InstagramTwo } from '@/svg';
-import CreativeStudioCopyright from './subComponents/CreativeStudioCopyright';
+import { DribbleTwo, FacebookTwo, InstagramTwo, TwitterTwo } from '@/svg';
 import Link from 'next/link';
+import CreativeStudioCopyright from './subComponents/CreativeStudioCopyright';
 
 const CreativeStudioFooter = ({ buttonCls = "" }) => {
     return (
@@ -29,7 +29,7 @@ const CreativeStudioFooter = ({ buttonCls = "" }) => {
             </div>
 
             <div className="creative-footer-text d-none d-lg-block">
-                <p>Agntix I’ve gone too far, send me back up 👆</p>
+                <p>Ton produit commence ici.</p>
             </div>
 
             {/* -- footer area start -- */}
@@ -38,7 +38,7 @@ const CreativeStudioFooter = ({ buttonCls = "" }) => {
                     <div className="row align-items-center">
                         <div className="col-xl-4 col-lg-4">
                             <div className="tp-footer-widget tp-footer-col-1 pb-40 tp_fade_anim" data-delay=".3">
-                                <h4 className="tp-footer-widget-title">Helping <br /> start-ups scale & grow.</h4>
+                                <h4 className="tp-footer-widget-title">Du premier sprint à la ligne d'arrivée.</h4>
                             </div>
                         </div>
                         <div className="col-xl-5 col-lg-4 col-md-6">
@@ -46,13 +46,11 @@ const CreativeStudioFooter = ({ buttonCls = "" }) => {
                                 <h4 className="tp-footer-widget-title-sm pre mb-25">Quick links</h4>
                                 <div className="tp-footer-widget-menu">
                                     <ul>
-                                        <li><Link href="#">About</Link></li>{" "}
-                                        <li><Link href="#">Who we are</Link></li>{" "}
-                                        <li><Link href="#">Services</Link></li>{" "}
-                                        <li><Link href="#">Projects</Link></li>{" "}
-                                        <li><Link href="#">Blog</Link></li>{" "}
-                                        <li><Link href="#">Pricing</Link></li>{" "}
-                                        <li><Link href="#">Contact Us</Link></li>
+                                        <li><Link href="/about-us-light">À propos</Link></li>{" "}
+                                        <li><Link href="/service-1-light">Services</Link></li>{" "}
+                                        <li><Link href="/projects-light">Projets</Link></li>{" "}
+                                        <li><Link href="/blog-light">Blog</Link></li>{" "}
+                                        <li><Link href="/contact">Contact</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -61,12 +59,11 @@ const CreativeStudioFooter = ({ buttonCls = "" }) => {
                             <div className="tp-footer-widget tp-footer-col-3 pb-40 mb-30 tp_fade_anim" data-delay=".7" data-on-scroll="3">
                                 <h4 className="tp-footer-widget-title-sm pre mb-20">Contact</h4>
                                 <div className="tp-footer-widget-info">
-                                    <Link href="mailto:agntixs@studio.com">agntixs@studio.com</Link>
-                                    <Link href="tel:+3025550107">+(302) 555-0107</Link>
+                                    <Link href="mailto:contact@start-line.dev">contact@start-line.dev</Link>
+                                    <Link href="tel:+33629266539">+(33) 6 29 26 65 39</Link>
                                 </div>
                                 <div className="tp-footer-widget-info">
-                                    <Link href="https://www.google.com/maps/" target="_blank">4517 Washington Ave. Manchester, <br />
-                                        Kentucky 39495</Link>
+                                    <Link href="https://www.google.com/maps/" target="_blank">380 Av. Augustin Fresnel, 13100 Aix-en-Provence, France</Link>
                                 </div>
                             </div>
                         </div>
@@ -76,7 +73,7 @@ const CreativeStudioFooter = ({ buttonCls = "" }) => {
 
             <CreativeStudioCopyright />
             {/* -- footer area end -- */}
-        </footer>
+        </footer >
     );
 };
 

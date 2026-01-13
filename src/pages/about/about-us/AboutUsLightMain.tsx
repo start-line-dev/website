@@ -1,18 +1,16 @@
+import HomeMainAbout from '@/components/about/HomeMainAbout';
+import AboutUsBanner from '@/components/banner/AboutUsBanner';
+import AboutUsBrand from '@/components/brand/AboutUsBrand';
+import AboutUsHero from '@/components/hero-banner/AboutUsHero';
 import CursorAndBackgroundProvider from '@/components/provider/CustomCursorProvider';
 import ScrollSmoothProvider from '@/components/provider/ScrollSmoothProvider';
-import AnimationWrapper from '@/components/shared/Animation/AnimationWrapper';
-import HomeMainFunFact from '@/components/funfact/HomeMainFunFact';
-import BackToTop from '@/components/shared/BackToTop/BackToTop';
 import AboutUsService from '@/components/service/AboutUsService';
-import AboutUsHero from '@/components/hero-banner/AboutUsHero';
-import AboutUsBanner from '@/components/banner/AboutUsBanner';
-import InnerPageHeader from '@/layouts/headers/InnerPageHeader';
-import HomeMainFooter from '@/layouts/footers/HomeMainFooter';
-import HomeMainAbout from '@/components/about/HomeMainAbout';
-import AboutUsBrand from '@/components/brand/AboutUsBrand';
-import AboutUsAward from '@/components/award/AboutUsAward';
-import HomeMainWork from '@/components/work/HomeMainWork';
+import AnimationWrapper from '@/components/shared/Animation/AnimationWrapper';
+import BackToTop from '@/components/shared/BackToTop/BackToTop';
 import AboutUsTeam from '@/components/team/AboutUsTeam';
+import HomeMainWork from '@/components/work/HomeMainWork';
+import HomeMainFooter from '@/layouts/footers/HomeMainFooter';
+import InnerPageHeader from '@/layouts/headers/InnerPageHeader';
 
 const AboutUsLightMain = () => {
     return (
@@ -34,10 +32,8 @@ const AboutUsLightMain = () => {
                                 <AboutUsBanner />
                                 <HomeMainAbout bgColur='#F6F6F9' spacingCls='pb-140' />
                                 <AboutUsService />
-                                <HomeMainFunFact />
                                 <HomeMainWork />
                                 <AboutUsTeam />
-                                <AboutUsAward />
                             </main>
                             <HomeMainFooter />
                         </div>

@@ -40,7 +40,7 @@ const HomeMainHeader = () => {
                         <div className="col-xl-3 col-lg-6 col-6">
                             <div className="tp-header-right d-flex align-items-center justify-content-end">
                                 <div className="tp-header-btn-box ml-25 d-none d-md-flex">
-                                    <Link href="/portfolio-col-2-light" className="tp-btn-black btn-red-bg">
+                                    <Link href="/contact" className="tp-btn-black btn-red-bg">
                                         <span className="tp-btn-black-filter-blur">
                                             <ButtonBlurFilter filterId="buttonFilter" />
                                         </span>

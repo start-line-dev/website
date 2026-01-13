@@ -1,15 +1,15 @@
-import CreativeAgencyCopyright from './subComponents/CreativeAgencyCopyright';
-import { FooterSocialIcons } from './subComponents/FooterSocialIcons';
 import Link from 'next/link';
 import React from 'react';
+import CreativeAgencyCopyright from './subComponents/CreativeAgencyCopyright';
+import { FooterSocialIcons } from './subComponents/FooterSocialIcons';
 
 interface FooterProps {
     bgColor?: string;
     className?: string;
-    Zindex?:string;
+    Zindex?: string;
 }
 
-const CreativeAgencyFooter: React.FC<FooterProps> = ({ bgColor = "#1b1b1d", className="", Zindex="" }) => {
+const CreativeAgencyFooter: React.FC<FooterProps> = ({ bgColor = "#1b1b1d", className = "", Zindex = "" }) => {
     return (
         <>
             <div className={`tp-footer-area tp-footer-style-6 ${className} ${Zindex} pt-120 pb-35`} style={{ backgroundColor: bgColor }}>
@@ -17,7 +17,7 @@ const CreativeAgencyFooter: React.FC<FooterProps> = ({ bgColor = "#1b1b1d", clas
                     <div className="row align-items-center">
                         <div className="col-xl-4 col-lg-4 col-md-12">
                             <div className="tp-footer-widget tp-footer-col-1 pb-40 tp_fade_anim" data-delay=".3">
-                                <h4 className="tp-footer-widget-title">Helping <br /> start-ups scale & grow.</h4>
+                                <h4 className="tp-footer-widget-title">Du premier sprint à la ligne d’arrivée.</h4>
                                 <div className="tp-footer-widget-social">
                                     {/* footer social icons */}
                                     <FooterSocialIcons className="tp-footer-widget-social" />
@@ -44,12 +44,11 @@ const CreativeAgencyFooter: React.FC<FooterProps> = ({ bgColor = "#1b1b1d", clas
                             <div className="tp-footer-widget tp-footer-col-3 pb-40 mb-30 tp_fade_anim" data-delay=".7">
                                 <h4 className="tp-footer-widget-title-sm pre mb-20">Contact</h4>
                                 <div className="tp-footer-widget-info">
-                                    <Link href="mailto:agntixs@studio.com">agntixs@studio.com</Link>
-                                    <Link href="tel:+3025550107">+(302) 555-0107</Link>
+                                    <Link href="mailto:contact@start-line.dev">contact@start-line.dev</Link>
+                                    <Link href="tel:+33629266539">+(33) 6 29 26 65 39</Link>
                                 </div>
                                 <div className="tp-footer-widget-info">
-                                    <Link href="https://www.google.com/maps/" target="_blank">4517 Washington Ave. Manchester, <br />
-                                        Kentucky 39495</Link>
+                                    <Link href="https://www.google.com/maps/" target="_blank">380 Av. Augustin Fresnel, 13100 Aix-en-Provence, France</Link>
                                 </div>
                             </div>
                         </div>
@@ -57,7 +56,7 @@ const CreativeAgencyFooter: React.FC<FooterProps> = ({ bgColor = "#1b1b1d", clas
                 </div>
             </div>
             {/* footer copyright */}
-            <CreativeAgencyCopyright bgColor={bgColor} Zindex={Zindex}/>
+            <CreativeAgencyCopyright bgColor={bgColor} Zindex={Zindex} />
         </>
     );
 };

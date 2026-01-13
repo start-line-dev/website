@@ -1,13 +1,12 @@
-import CursorAndBackgroundProvider from '@/components/provider/CustomCursorProvider';
-import AnimationWrapper from '@/components/shared/Animation/AnimationWrapper'; 
-import ScrollSmoothProvider from '@/components/provider/ScrollSmoothProvider';
-import ContactLocationArea from '@/components/contacts/ContactLocationArea';
 import ContactFormArea from '@/components/contacts/ContactFormArea';
-import BackToTop from '@/components/shared/BackToTop/BackToTop';
-import InnerPageHeader from '@/layouts/headers/InnerPageHeader';
-import HomeMainFooter from '@/layouts/footers/HomeMainFooter';
-import InnerMapArea from '@/components/contacts/InnerMapArea';
 import ContactHero from '@/components/contacts/ContactHero';
+import InnerMapArea from '@/components/contacts/InnerMapArea';
+import CursorAndBackgroundProvider from '@/components/provider/CustomCursorProvider';
+import ScrollSmoothProvider from '@/components/provider/ScrollSmoothProvider';
+import AnimationWrapper from '@/components/shared/Animation/AnimationWrapper';
+import BackToTop from '@/components/shared/BackToTop/BackToTop';
+import HomeMainFooter from '@/layouts/footers/HomeMainFooter';
+import InnerPageHeader from '@/layouts/headers/InnerPageHeader';
 
 const ContactMain = () => {
     return (
@@ -29,7 +28,6 @@ const ContactMain = () => {
                                 <ContactHero />
                                 <InnerMapArea />
                                 <ContactFormArea />
-                                <ContactLocationArea />
                             </main>
                             <HomeMainFooter />
                         </div>
