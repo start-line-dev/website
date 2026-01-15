@@ -1,17 +1,15 @@
-import PortfolioDetailsBrandOverview from '@/components/brand/PortfolioDetailsBrandOverview';
-import PortfolioDetailsThumbSlider from '@/components/thumb/PortfolioDetailsThumbSlider';
 import PortfoliDetailsGalleryBanner from '@/components/banner/PortfoliDetailsGalleryBanner';
-import PortfolioDetailsThumbThree from '@/components/thumb/PortfolioDetailsThumbThree';
+import PortfolioDetailsBrandOverview from '@/components/brand/PortfolioDetailsBrandOverview';
 import PortfolioDetailsTwoArea from '@/components/portfolio/PortfolioDetailsTwoArea';
 import CursorAndBackgroundProvider from '@/components/provider/CustomCursorProvider';
 import ScrollSmoothProvider from '@/components/provider/ScrollSmoothProvider';
 import AnimationWrapper from '@/components/shared/Animation/AnimationWrapper';
-import PortfolioDetailsStep from '@/components/step/PortfolioDetailsStep';
-import CreativeAgencyFooter from '@/layouts/footers/CreativeAgencyFooter';
 import BackToTop from '@/components/shared/BackToTop/BackToTop';
+import PortfolioDetailsStep from '@/components/step/PortfolioDetailsStep';
+import PortfolioDetailsThumbSlider from '@/components/thumb/PortfolioDetailsThumbSlider';
+import PortfolioDetailsThumbThree from '@/components/thumb/PortfolioDetailsThumbThree';
+import CreativeAgencyFooter from '@/layouts/footers/CreativeAgencyFooter';
 import InnerPageHeader from '@/layouts/headers/InnerPageHeader';
-import PrevNextArrow from '@/svg/PrevNextArrow';
-import Link from 'next/link';
 
 const PortfolioDetailsGallery = () => {
     return (
@@ -37,7 +35,7 @@ const PortfolioDetailsGallery = () => {
                                 <PortfolioDetailsStep />
                                 <PortfolioDetailsThumbThree />
                                 {/* portfolio details np start */}
-                                <div className="tp-pd-2-np-ptb pb-120">
+                                {/* <div className="tp-pd-2-np-ptb pb-120">
                                     <div className="container container-1230">
                                         <div className="row">
                                             <div className="col-lg-12">
@@ -54,7 +52,7 @@ const PortfolioDetailsGallery = () => {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </main>
                             <CreativeAgencyFooter bgColor="#1b1b1d" />
                         </div>

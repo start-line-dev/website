@@ -1,8 +1,7 @@
 import Image from "next/image";
-import aboutImgOne from "../../../public/assets/img/home-01/about/about-1.jpg";
+import aboutImgOne from "../../../public/assets/img/home-01/about/about-1.png";
 import aboutAvater from "../../../public/assets/img/home-01/about/about-avater.png";
 import aboutShape from "../../../public/assets/img/home-01/about/about-shape-1.png";
-import HomeMainCounter from "../counter/HomeMainCounter";
 
 interface aboutPropsDT {
     bgColur?: string;
@@ -20,7 +19,7 @@ const HomeMainAbout = ({ bgColur, spacingCls = "pb-120" }: aboutPropsDT) => {
                     <div className="row">
                         <div className="col-xl-3">
                             <div className="tp-about-title-box">
-                                <span className="tp-section-subtitle pre tp_fade_anim">QUI NOUS SOMMES</span>
+                                <span className="tp-section-subtitle pre tp_fade_anim">QUI SOMMES-NOUS ?</span>
                             </div>
                         </div>
 
@@ -41,14 +40,14 @@ const HomeMainAbout = ({ bgColur, spacingCls = "pb-120" }: aboutPropsDT) => {
                                         <div className="tp-about-funcact-wrap">
                                             <div className="tp-about-avater-info">
                                                 <Image className="tp_fade_anim" data-delay=".3"
-                                                    data-fade-from="right" src={aboutAvater} alt="about-avater" />
+                                                    data-fade-from="right" style={{ width: "130px", height: "auto" }} src={aboutAvater} alt="about-avater" />
                                                 <div className="tp_text_anim">
                                                     <p>Vous avez une idée, une opportunité ou un besoin métier.<br />
                                                         Nous livrons un produit digital fonctionnel, monétisable et pilotable, sans que vous ayez à gérer la technique.</p>
                                                 </div>
                                             </div>
                                             {/* counter area */}
-                                            <HomeMainCounter />
+                                            {/* <HomeMainCounter /> */}
                                             {/* counter area end */}
                                         </div>
                                     </div>

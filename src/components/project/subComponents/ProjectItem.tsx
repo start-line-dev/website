@@ -8,8 +8,8 @@ const ProjectItem = () => {
     const { addToRefs } = useHoverEffect();
 
     // Split projects into two columns
-    const leftColumnProjects = projectsData.slice(0, 2).filter((_, index) => index % 2 === 0);
-    const rightColumnProjects = projectsData.slice(0, 2).filter((_, index) => index % 2 !== 0);
+    const leftColumnProjects = projectsData.slice(0, 3).filter((_, index) => index % 2 === 0);
+    const rightColumnProjects = projectsData.slice(0, 3).filter((_, index) => index % 2 !== 0);
 
     return (
         <div className="row gx-135">

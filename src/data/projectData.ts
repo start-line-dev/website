@@ -1,8 +1,8 @@
 import { projectsDT } from "@/types/project-d-t";
 //home main project
-import project1 from "../../public/assets/img/home-01/project/project-1.jpg";
+import project1 from "../../public/assets/img/home-01/project/project-1.png";
 import project2 from "../../public/assets/img/home-01/project/project-2.jpg";
-import project4 from "../../public/assets/img/home-01/project/project-4.jpg";
+import project3 from "../../public/assets/img/home-01/project/project-3.png";
 //home 3 project image
 
 //home 4 project image
@@ -27,21 +27,21 @@ export const projectsData: projectsDT[] = [
     title: "Moneyes",
     image: project1,
     categories: ["Application mobile", "Finance"],
-    link: "/portfolio-details-gallery-light",
+    link: "https://play.google.com/store/apps/details?id=com.moneyes.app",
   },
   {
     id: 2,
     title: "Administration & plateformes métier",
-    image: project4,
-    categories: ["Website", "Administration", "Plateformes métier"],
-    link: "/portfolio-details-gallery-light",
+    image: project2,
+    categories: ["Website", "Administration"],
+    link: "#",
   },
   {
     id: 3,
     title: "Pilotage & monitoring",
-    image: project2,
+    image: project3,
     categories: ["Website", "Pilotage", "Monitoring"],
-    link: "/portfolio-details-gallery-light",
+    link: "#",
   },
 ];
 

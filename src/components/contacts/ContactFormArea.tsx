@@ -1,5 +1,4 @@
 "use client"
-import { ArrowTwenty } from '@/svg/ArrowIcons';
 import React from 'react';
 
 const ContactFormArea = () => {
@@ -10,19 +9,6 @@ const ContactFormArea = () => {
         <div className="tp-contact-form-ptb pb-140">
             <div className="container container-1230">
                 <div className="row">
-                    <div className="col-lg-6">
-                        <div className="tp-contact-form-heading tp_fade_anim mb-50">
-                            <div className="ar-about-us-4-title-box d-flex align-items-center mb-15">
-                                <span className="tp-section-subtitle pre">Nous contacter</span>
-                                <div className="ar-about-us-4-icon">
-                                    <ArrowTwenty />
-                                </div>
-                            </div>
-                            <h3 className="tp-section-title lts">Rendons <br />
-                                votre produit <br />
-                                concret !</h3>
-                        </div>
-                    </div>
                     <div className="col-lg-6">
                         <div className="tp-contact-form-wrap">
                             <form id="contact-form" onSubmit={handleSubmit}>

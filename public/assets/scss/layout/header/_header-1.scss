@@ -20,9 +20,7 @@
 }
 .tp-header{
     &-ptb{
-        @media #{$lg,$md,$xs}{
             padding: 10px 0;
-        }
     }
     &-border{
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -76,6 +74,7 @@
         }
     }
     &-logo{
+        padding: 10px 0;
         & img {
             max-width: inherit;
         }
@@ -84,9 +83,6 @@
         }
         @media #{$xl}{
             padding-right: 25px;
-        }
-        @media #{$lg,$md,$xs}{
-            padding: 10px 0;
         }
     }
     &-right{

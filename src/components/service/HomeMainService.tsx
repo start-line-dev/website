@@ -16,7 +16,7 @@ const HomeMainService = () => {
                     </div>
                 </div>
                 <div className="tp-service-pin">
-                    {servicesData.slice(0, 4).map((service) => {
+                    {servicesData.slice(0, 3).map((service) => {
                         return (
                             <div key={service.id} className="tp-service-item tp-service-panel">
                                 <div className="row">
@@ -41,13 +41,13 @@ const HomeMainService = () => {
                                                 ))}
                                             </p>
                                             <div className="tp-service-btn">
-                                                <Link href={service.link} className="tp-btn-black btn-red-bg">
+                                                <Link href='/contact' className="tp-btn-black btn-red-bg">
                                                     <span className="tp-btn-black-filter-blur">
                                                         <ButtonBlurFilter filterId={`buttonFilter${service.id + 1}`} />
                                                     </span>
                                                     <span className="tp-btn-black-filter d-inline-flex align-items-center"
                                                         style={{ filter: `url(#buttonFilter${service.id + 1})` }}>
-                                                        <span className="tp-btn-black-text">Voir nos services</span>
+                                                        <span className="tp-btn-black-text">Démarrer un projet</span>
                                                         <span className="tp-btn-black-circle">
                                                             <ArrowSvg />
                                                         </span>

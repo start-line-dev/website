@@ -44,16 +44,11 @@
         height: 415px;
         width: 315px;
         overflow: hidden;
-        margin-left: 100px;
-        @media #{$xl,$lg,$md,$xs}{
-            margin-left: 0;
-        }
         @media #{$xs}{
             width: 100%;
         }
         & img{
             width: 100%;
-            margin-top: -100px;
         }
     }
     &-funcact{

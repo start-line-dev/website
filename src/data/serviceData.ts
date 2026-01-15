@@ -60,44 +60,26 @@ const servicesData: servicesDT[] = [
     title: "Site web",
     image: service1,
     description:
-      "Que vous ayez besoin de visuels époustouflants pour votre site web, de graphismes captivants pour vos supports marketing, ou de designs UI/UX innovants pour votre application, notre équipe d'experts est là pour transformer votre vision en réalité.",
-    categories: [
-      "Design UX",
-      "Tests utilisateurs",
-      "Motion Design",
-      "Prototype produit",
-    ],
+      "Notre service de création de site web vous accompagne de la conception à la mise en ligne, en développant des sites vitrines, institutionnels ou e-commerce entièrement adaptés à vos besoins. Nous mettons l'accent sur l'ergonomie, le design moderne, la performance et la sécurité afin d'assurer à votre entreprise une présence digitale efficace, facile à piloter et évolutive dans le temps.",
+    categories: ["Vitrine", "E-commerce", "Institutionnel"],
     link: "/service-details-light",
   },
   {
     id: 2,
-    title: "Application mobile",
+    title: "Application mobile/desktop",
     image: service2,
     description:
-      "Nos services de design de produit se concentrent sur la création de produits intuitifs et esthétiquement agréables qui résonnent avec votre audience et se démarquent sur le marché.",
-    categories: [
-      "Design UX",
-      "Tests utilisateurs",
-      "Prototype produit",
-      "UI Mobile",
-      "Design UI logiciel",
-      "Design application web",
-    ],
+      "Nos services de développement d'application mobile se concentrent sur la création d'applications intuitives qui résonnent avec votre audience et se démarquent sur le marché.",
+    categories: ["Intuitives", "Ergonomique", "Performante", "Sécurisée"],
     link: "/service-details-light",
   },
   {
     id: 3,
-    title: "Cross-platform",
+    title: "Logiciel sur mesure",
     image: service3,
     description:
-      "Du développement de sites web et de plateformes e-commerce aux logiciels sur mesure et applications mobiles, notre équipe de développement a l'expertise pour donner vie à vos idées.",
-    categories: [
-      "Design UX",
-      "Frontend",
-      "Backend",
-      "E-commerce",
-      "No Code / Low Code",
-    ],
+      "Nous développons des logiciels sur mesure, pensés pour répondre précisément à vos besoins métiers. Que ce soit pour automatiser vos processus, centraliser vos données ou innover dans votre activité, notre accompagnement prend en compte chaque étape du projet : analyse, conception, développement, déploiement et maintenance. Notre priorité : un logiciel simple à utiliser, performant et évolutif, qui s'intègre parfaitement dans votre environnement existant et accélère la création de valeur pour votre organisation.",
+    categories: ["Personnalisé", "Optimisation métier"],
     link: "/service-details-light",
   },
   {

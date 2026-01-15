@@ -2,6 +2,7 @@ import { ArrowSvg } from "@/svg";
 import Image from "next/image";
 import Link from "next/link";
 import bannerBg from "../../../public/assets/img/bg-wrap.png";
+import heroAvater from "../../../public/assets/img/home-01/hero/hero-avater.png";
 import heroImage from "../../../public/assets/img/home-01/hero/hero-image.png";
 import heroSvg from "../../../public/assets/img/home-01/hero/hero-svg-1.svg";
 const HomeMainHero = () => {
@@ -33,12 +34,12 @@ const HomeMainHero = () => {
                                 <div className="tp-hero-more-info p-relative" style={{ backgroundImage: `url(${heroSvg.src})` }}>
                                     <span className="tp-hero-line d-none d-sm-block"></span>
                                     <div className="tp-hero-avater d-flex align-items-center justify-content-between">
-                                        {/* <Image src={heroAvater} alt="avater-image" /> */}
+                                        <Image width={36} height={36} style={{ marginRight: "10px" }} src={heroAvater} alt="avater-image" />
                                         <span>Tom Guastapaglia</span>
                                     </div>
                                     <p>“Nous lançons votre produit digital prêt à être vendu, optimisé pour le business.”</p>
                                     <div className="tp-hero-link text-end">
-                                        <Link href="/about-us-light">More</Link>
+                                        <Link href="/contact">Plus</Link>
                                     </div>
                                 </div>
                             </div>

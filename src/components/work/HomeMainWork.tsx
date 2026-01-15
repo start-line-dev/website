@@ -33,7 +33,7 @@ const HomeMainWork = () => {
                                 </div>
                                 <div className="tp-work-content">
                                     <h4 className="tp-work-title">Développement agile</h4>
-                                    <p>Sprints courts
+                                    <p>Intégration, sprints courts
                                         - Avancées visibles chaque semaine
                                         - Priorisation orientée valeur</p>
                                 </div>
@@ -42,17 +42,6 @@ const HomeMainWork = () => {
                                 <div className="tp-work-number p-relative">
                                     <span></span>
                                     <i>03</i>
-                                </div>
-                                <div className="tp-work-content">
-                                    <h4 className="tp-work-title">Développement & intégration</h4>
-                                    <p>Frontend, backend, API
-                                        - Sécurité, performance, stabilité</p>
-                                </div>
-                            </div>
-                            <div className="tp-work-item tp-panel-pin mb-15">
-                                <div className="tp-work-number p-relative">
-                                    <span></span>
-                                    <i>04</i>
                                 </div>
                                 <div className="tp-work-content">
                                     <h4 className="tp-work-title">Déploiement</h4>
@@ -64,7 +53,7 @@ const HomeMainWork = () => {
                             <div className="tp-work-item tp-panel-pin mb-15">
                                 <div className="tp-work-number p-relative">
                                     <span></span>
-                                    <i>05</i>
+                                    <i>04</i>
                                 </div>
                                 <div className="tp-work-content">
                                     <h4 className="tp-work-title">Pilotage & maintenance</h4>

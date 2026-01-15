@@ -28,13 +28,7 @@ const HomeMainFooter: React.FC<IHomeMainFooter> = ({ bgColor, buttonCls, quikLin
                                 <h4 className="tp-footer-widget-title-sm pre mb-25">Liens rapides</h4>
                                 <div className="tp-footer-widget-menu">
                                     <ul>
-                                        <li><Link href="#">À propos</Link></li>{" "}
-                                        <li><Link href="#">Qui nous sommes</Link></li>{" "}
-                                        <li><Link href="#">Services</Link></li>{" "}
-                                        <li><Link href="#">Projets</Link></li>{" "}
-                                        <li><Link href="#">Blog</Link></li>{" "}
-                                        <li><Link href="#">Tarifs</Link></li>{" "}
-                                        <li><Link href="#">Nous contacter</Link></li>
+                                        <li><Link href="/contact">Nous contacter</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -43,20 +37,19 @@ const HomeMainFooter: React.FC<IHomeMainFooter> = ({ bgColor, buttonCls, quikLin
                             <div className="tp-footer-widget tp-footer-col-3 pb-40 mb-30 tp_fade_anim" data-delay=".7">
                                 <h4 className="tp-footer-widget-title-sm pre mb-20">Contact</h4>
                                 <div className="tp-footer-widget-info">
-                                    <Link href="mailto:agntixs@studio.com">agntixs@studio.com</Link>
-                                    <Link href="tel:+3025550107">+(302) 555-0107</Link>
+                                    <Link href="mailto:hello@moneyes.fr">hello@moneyes.fr</Link>
+                                    <Link href="tel:+33629266539">+(33) 6 29 26 65 39</Link>
                                 </div>
                                 <div className="tp-footer-widget-info">
-                                    <Link href="https://www.google.com/maps/" target="_blank">4517 Washington Ave. Manchester, <br />
-                                        Kentucky 39495</Link>
+                                    <Link href="https://www.google.com/maps/" target="_blank">380 Av. Augustin Fresnel, 13100 Aix-en-Provence, France</Link>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div >
             {/* footer copyright */}
-            <HomeFooterCopyright bgColor={bgColor} />
+            < HomeFooterCopyright bgColor={bgColor} />
         </>
     );
 };

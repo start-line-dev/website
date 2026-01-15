@@ -56,7 +56,7 @@ const ContactHero = () => {
                                             </div>
                                             <div className="ar-about-funfact-item-content">
                                                 <p>Besoin d'aide ?</p>
-                                                <Link className="tp-line-white" href="mailto:contact@start-line.dev">contact@start-line.dev</Link>
+                                                <Link className="tp-line-white" href="mailto:hello@moneyes.fr">hello@moneyes.fr</Link>
                                             </div>
                                         </div>
                                     </div>

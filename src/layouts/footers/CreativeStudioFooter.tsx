@@ -59,7 +59,7 @@ const CreativeStudioFooter = ({ buttonCls = "" }) => {
                             <div className="tp-footer-widget tp-footer-col-3 pb-40 mb-30 tp_fade_anim" data-delay=".7" data-on-scroll="3">
                                 <h4 className="tp-footer-widget-title-sm pre mb-20">Contact</h4>
                                 <div className="tp-footer-widget-info">
-                                    <Link href="mailto:contact@start-line.dev">contact@start-line.dev</Link>
+                                    <Link href="mailto:hello@moneyes.fr">hello@moneyes.fr</Link>
                                     <Link href="tel:+33629266539">+(33) 6 29 26 65 39</Link>
                                 </div>
                                 <div className="tp-footer-widget-info">

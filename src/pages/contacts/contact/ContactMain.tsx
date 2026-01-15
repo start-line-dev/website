@@ -1,6 +1,5 @@
 import ContactFormArea from '@/components/contacts/ContactFormArea';
 import ContactHero from '@/components/contacts/ContactHero';
-import InnerMapArea from '@/components/contacts/InnerMapArea';
 import CursorAndBackgroundProvider from '@/components/provider/CustomCursorProvider';
 import ScrollSmoothProvider from '@/components/provider/ScrollSmoothProvider';
 import AnimationWrapper from '@/components/shared/Animation/AnimationWrapper';
@@ -26,7 +25,6 @@ const ContactMain = () => {
                             {/* Main Content Sections */}
                             <main>
                                 <ContactHero />
-                                <InnerMapArea />
                                 <ContactFormArea />
                             </main>
                             <HomeMainFooter />

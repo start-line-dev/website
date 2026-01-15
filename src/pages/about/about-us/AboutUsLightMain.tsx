@@ -4,11 +4,9 @@ import AboutUsBrand from '@/components/brand/AboutUsBrand';
 import AboutUsHero from '@/components/hero-banner/AboutUsHero';
 import CursorAndBackgroundProvider from '@/components/provider/CustomCursorProvider';
 import ScrollSmoothProvider from '@/components/provider/ScrollSmoothProvider';
-import AboutUsService from '@/components/service/AboutUsService';
 import AnimationWrapper from '@/components/shared/Animation/AnimationWrapper';
 import BackToTop from '@/components/shared/BackToTop/BackToTop';
 import AboutUsTeam from '@/components/team/AboutUsTeam';
-import HomeMainWork from '@/components/work/HomeMainWork';
 import HomeMainFooter from '@/layouts/footers/HomeMainFooter';
 import InnerPageHeader from '@/layouts/headers/InnerPageHeader';
 
@@ -31,8 +29,6 @@ const AboutUsLightMain = () => {
                                 <AboutUsBrand />
                                 <AboutUsBanner />
                                 <HomeMainAbout bgColur='#F6F6F9' spacingCls='pb-140' />
-                                <AboutUsService />
-                                <HomeMainWork />
                                 <AboutUsTeam />
                             </main>
                             <HomeMainFooter />

@@ -38,22 +38,21 @@
         }
     }
     &-image{
-        width: 100%;
+        width: 60%;
         height: auto;
         position: absolute;
-        bottom: -1200;
-        left: -200;
         z-index: -1;
+        top: 0;
+        left: 50%;
+        filter: blur(1.5px);
+        transform: translateX(-50%);
         @media #{$lg}{
-            bottom: -300px;
-            left: -100px;
         }
         @media #{$xs}{
             width: 100%;
             scale: 1.5;
-            left: 0;
-             right: -100;
-             bottom: -100;
+            bottom: 20%;
+            top: unset;
         }
     }
 }

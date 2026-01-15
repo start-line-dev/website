@@ -1,4 +1,4 @@
-import { ArrowSvg, ButtonBlurFilter } from '@/svg';
+import { ButtonBlurFilter } from '@/svg';
 import Link from 'next/link';
 import ProjectItem from './subComponents/ProjectItem';
 
@@ -19,12 +19,12 @@ const HomeMainProject = () => {
                                     <span className="tp-btn-black-filter-blur">
                                         <ButtonBlurFilter filterId='buttonFilter6' />
                                     </span>
-                                    <span className="tp-btn-black-filter d-inline-flex align-items-center" style={{ filter: "url(#buttonFilter6)" }}>
+                                    {/* <span className="tp-btn-black-filter d-inline-flex align-items-center" style={{ filter: "url(#buttonFilter6)" }}>
                                         <span className="tp-btn-black-text">Voir toutes les réalisations</span>
                                         <span className="tp-btn-black-circle">
                                             <ArrowSvg />
                                         </span>
-                                    </span>
+                                    </span> */}
                                 </Link>
                             </div>
                         </div>
