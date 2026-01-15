@@ -33,9 +33,12 @@ const HomeMainHero = () => {
                             <div className="tp-hero-more-info-wrap d-inline-flex justify-content-end tp_fade_anim" data-delay="1.5">
                                 <div className="tp-hero-more-info p-relative" style={{ backgroundImage: `url(${heroSvg.src})` }}>
                                     <span className="tp-hero-line d-none d-sm-block"></span>
-                                    <div className="tp-hero-avater d-flex align-items-center justify-content-between">
-                                        <Image width={36} height={36} style={{ marginRight: "10px" }} src={heroAvater} alt="avater-image" />
-                                        <span>Tom Guastapaglia</span>
+                                    <div className="tp-hero-avater d-flex align-items-center justify-content-center">
+                                        <Image width={40} height={40} style={{ marginRight: "10px" }} src={heroAvater} alt="avater-image" />
+                                        <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
+                                            <span style={{ fontSize: "15px", fontWeight: "600", lineHeight: "1.1" }}>Tom Guastapaglia</span>
+                                            <span style={{ fontSize: "11px", fontWeight: "400" }}>CEO de  <strong>StartLine</strong></span>
+                                        </div>
                                     </div>
                                     <p>“Nous lançons votre produit digital prêt à être vendu, optimisé pour le business.”</p>
                                     <div className="tp-hero-link text-end">

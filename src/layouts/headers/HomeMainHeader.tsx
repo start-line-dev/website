@@ -39,7 +39,7 @@ const HomeMainHeader = () => {
                         </div>
                         <div className="col-xl-3 col-lg-6 col-6">
                             <div className="tp-header-right d-flex align-items-center justify-content-end">
-                                <div className="tp-header-btn-box ml-25 d-none d-md-flex">
+                                <div className="tp-header-btn-box ml-25 d-flex">
                                     <Link href="/contact" className="tp-btn-black btn-red-bg">
                                         <span className="tp-btn-black-filter-blur">
                                             <ButtonBlurFilter filterId="buttonFilter" />
@@ -51,13 +51,6 @@ const HomeMainHeader = () => {
                                             </span>
                                         </span>
                                     </Link>
-                                </div>
-                                <div className="tp-header-bar ml-20 d-xl-none">
-                                    <button onClick={() => setOpenOffCanvas(true)} className="tp-offcanvas-open-btn">
-                                        <i></i>
-                                        <i></i>
-                                        <i></i>
-                                    </button>
                                 </div>
                             </div>
                         </div>
