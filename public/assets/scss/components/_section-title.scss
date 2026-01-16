@@ -13,6 +13,7 @@
         margin-bottom: 0;
         letter-spacing: -0.05em;
         text-transform: uppercase;
+        text-align: center;
         color: var(--tp-common-white);
         @media #{$x3l}{
             font-size: 100px;
@@ -52,6 +53,12 @@
             bottom: 20%;
             top: unset;
         }
+    }
+    &-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
 .ar-title{
