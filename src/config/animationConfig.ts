@@ -13,6 +13,7 @@ import {
     gsapBackgroundAnim,
     heroAnimation,
     heroBgAnimation,
+    heroVideoFadeAnimation,
     imageRevealAnimation,
     innerServiceAnimation,
     panelAnimation,
@@ -54,7 +55,7 @@ import { bounceAnimation, textBounceAnimation } from "@/utils/titleAnimation";
 
 export const animationConfig: Record<string, (() => void)[]> = {
     //home page animation
-    "/": [funfactPanelAnimation, buttonBounceAnimation, servicePanelAnimation, textBounceAnimation, animationParagraph, bounceAnimation, textInvertAnim1, videoAnimation, panelAnimation],
+    "/": [heroVideoFadeAnimation, funfactPanelAnimation, buttonBounceAnimation, servicePanelAnimation, textBounceAnimation, animationParagraph, bounceAnimation, textInvertAnim1, videoAnimation, panelAnimation],
     //design studio page
     "/design-studio": [heroAnimation, scrollMovingText, portfolioAnimation, textInvertAnim3],
     //digital marketing page

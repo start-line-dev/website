@@ -9,7 +9,7 @@
         position: relative;
         padding-top: 285px;
         padding-bottom: 285px;
-        border-radius: 0 0 50px 50px;
+        border-radius: 0;
         @media #{$lg}{
             flex-direction: column;
             padding-top: 180px;

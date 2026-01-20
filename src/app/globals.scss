@@ -60,3 +60,21 @@
   z-index: -1;
 }
 
+/* Hide animated elements before animations start */
+.tp-char-animation {
+  visibility: hidden;
+}
+
+.tp_fade_anim {
+  visibility: hidden;
+}
+
+.tp_text_anim {
+  visibility: hidden;
+}
+
+.tp-hero-video {
+  visibility: hidden;
+  opacity: 0;
+}
+

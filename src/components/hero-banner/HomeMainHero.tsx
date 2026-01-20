@@ -1,14 +1,22 @@
 import { ArrowSvg } from "@/svg";
 import Image from "next/image";
 import Link from "next/link";
-import bannerBg from "../../../public/assets/img/bg-wrap.png";
 import heroAvater from "../../../public/assets/img/home-01/hero/hero-avater.png";
 import heroSvg from "../../../public/assets/img/home-01/hero/hero-svg-1.svg";
 const HomeMainHero = () => {
     return (
-        <div className="tp-hero-area tp-hero-ptb tp-image-distortion p-relative fix z-index-1"
-            style={{ backgroundImage: `url(${bannerBg.src})`, backgroundSize: "cover", backgroundPosition: "center" }}
-        >
+        <div className="tp-hero-area tp-hero-ptb tp-image-distortion p-relative fix z-index-1" style={{ backgroundColor: "#000000" }}>
+            <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", backgroundColor: "#000000", zIndex: -2 }}></div>
+            <video
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="tp-hero-video absolute inset-0 w-full h-full object-cover"
+                style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: -1, borderRadius: 0 }}
+            >
+                <source src="/assets/video/hero-video.mp4" type="video/mp4" />
+            </video>
             <div className="container container-1750">
                 <div className="tp-hero-container d-flex justify-content-center align-items-center">
                     <div className="tp-hero-title-box">
@@ -16,7 +24,7 @@ const HomeMainHero = () => {
                             Votre produit <br /> commence ici.
                         </h2>
                     </div>
-                    <div className="tp-hero-content-wrap d-flex flex-xl-column pb-20">
+                    <div className="tp-hero-content-wrap d-flex flex-xl-column pb-20 justify-content-end">
                         <div className="tp-hero-info d-flex align-items-start justify-content-between tp_text_anim">
                             <p>Votre produit digital, livré clé en main.</p>
                             <span>

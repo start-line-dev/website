@@ -35,7 +35,7 @@ const ContactHero = () => {
                         <div className="col-xl-3 col-lg-4">
                             <div className="tp-contact-main-funfact-wrap">
                                 <div className="crp-hero-funfact-wrap crp-hero-funfact-bg z-index-1 p-relative tp_fade_anim ar-about-funfact-color" data-delay=".5"
-                                    style={{ backgroundImage: `url(${bgShape.src})` }}>
+                                    style={{ backgroundImage: `url(${bgShape.src})`, borderRadius: "30px" }}>
                                     <div className="crp-hero-funfact-line d-none d-xl-inline-block"></div>
                                     <div className="ar-about-funfact-top-content">
                                         <h4>Entrer en <br /> contact !</h4>

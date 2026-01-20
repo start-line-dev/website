@@ -1,7 +1,6 @@
 "use client"
 import OffCanvasPanel from '@/components/offcanvas/OffCanvasPanel';
 import useStickyHeader from '@/hooks/useStickyHeader';
-import { ArrowSvg, ButtonBlurFilter } from '@/svg';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
@@ -15,7 +14,7 @@ const InnerPageHeader = ({ containerCls = " container-1750" }) => {
     return (
         <>
             <div id="header-sticky" className={`tp-header-area tp-header-inner-style tp-header-ptb 
-                tp-header-blur sticky-white-bg header-transparent mt-30 @@class ${isSticky ? 'header-sticky' : ''}`}>
+                tp-header-blur sticky-white-bg header-transparent @@class ${isSticky ? 'header-sticky' : ''}`}>
                 <div className={`container ${containerCls}`}>
                     <div className="row align-items-center">
                         <div className="col-xl-2 col-lg-6 col-6">
@@ -35,7 +34,7 @@ const InnerPageHeader = ({ containerCls = " container-1750" }) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-2 col-lg-6 col-6">
+                        {/* <div className="col-xl-2 col-lg-6 col-6">
                             <div className="tp-header-right d-flex align-items-center justify-content-end">
                                 <div className="tp-header-btn-box ml-25 d-none d-md-flex">
                                     <Link href="/contact" className="tp-btn-black btn-red-bg">
@@ -58,7 +57,7 @@ const InnerPageHeader = ({ containerCls = " container-1750" }) => {
                                     </button>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

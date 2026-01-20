@@ -1,6 +1,6 @@
+import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { SplitText } from 'gsap/SplitText';
-import gsap from 'gsap';
 
 // Type for SplitText result
 interface SplitTextResult {
@@ -24,13 +24,21 @@ export const fadeAnimation = () => {
     const tp_delay_value = item.dataset.delay ? parseFloat(item.dataset.delay) : 0.15;
     const tp_ease_value = item.dataset.ease || "power2.out";
 
-    const tp_anim_setting: gsap.TweenVars = {
+    // Initialiser l'élément comme caché
+    gsap.set(item, {
+      visibility: "visible",
       opacity: 0,
+      x: (tp_fade_direction === "left" ? -tp_fade_offset : (tp_fade_direction === "right" ? tp_fade_offset : 0)),
+      y: (tp_fade_direction === "top" ? -tp_fade_offset : (tp_fade_direction === "bottom" ? tp_fade_offset : 0)),
+    });
+
+    const tp_anim_setting: gsap.TweenVars = {
+      opacity: 1,
+      x: 0,
+      y: 0,
       ease: tp_ease_value,
       duration: tp_duration_value,
       delay: tp_delay_value,
-      x: (tp_fade_direction === "left" ? -tp_fade_offset : (tp_fade_direction === "right" ? tp_fade_offset : 0)),
-      y: (tp_fade_direction === "top" ? -tp_fade_offset : (tp_fade_direction === "bottom" ? tp_fade_offset : 0)),
     };
 
     if (tp_onscroll_value) {
@@ -40,7 +48,7 @@ export const fadeAnimation = () => {
       };
     }
 
-    gsap.from(item, tp_anim_setting);
+    gsap.to(item, tp_anim_setting);
   });
 }
 // Fade Effect With Scroll //
@@ -80,32 +88,65 @@ export const charAnimation = () => {
     const animationItems = gsap.utils.toArray<HTMLElement>(".tp-char-animation");
 
     animationItems.forEach((splitTextLine) => {
-      const tl = gsap.timeline({
-        scrollTrigger: {
-          trigger: splitTextLine,
-          start: 'top 90%',
-          end: 'bottom 60%',
-          scrub: false,
-          markers: false,
-          toggleActions: 'play none none none'
-        }
-      });
+      // Vérifier si c'est le hero de la page d'accueil pour une animation plus rapide
+      const isHeroTitle = splitTextLine.closest('.tp-hero-title-box') !== null;
+      
+      // Pour le hero title, animation immédiate sans ScrollTrigger
+      // Pour les autres, utiliser ScrollTrigger
+      const tl = isHeroTitle 
+        ? gsap.timeline()
+        : gsap.timeline({
+            scrollTrigger: {
+              trigger: splitTextLine,
+              start: 'top 90%',
+              end: 'bottom 60%',
+              scrub: false,
+              markers: false,
+              toggleActions: 'play none none none'
+            }
+          });
 
       // Type assertion for SplitText result
       const itemSplitted = new SplitText(splitTextLine, {
         type: "chars, words"
       }) as unknown as SplitTextResult;
 
-      gsap.set(splitTextLine, { perspective: 300 });
+      gsap.set(splitTextLine, { perspective: 300, visibility: "visible" });
       itemSplitted.split({ type: "chars, words" });
 
-      tl.from(itemSplitted.chars, {
-        duration: 1,
-        delay: 0.5,
-        x: 100,
-        autoAlpha: 0,
-        stagger: 0.05
-      });
+      // Animation impactante pour le hero (mot par mot, bas vers haut avec fade), animation normale pour les autres
+      if (isHeroTitle && itemSplitted.words) {
+        // Initialiser les mots comme cachés
+        gsap.set(itemSplitted.words, {
+          opacity: 0,
+          autoAlpha: 0,
+          y: 150,
+          filter: "blur(10px)"
+        });
+        tl.to(itemSplitted.words, {
+          duration: 0.8,
+          delay: 0,
+          y: 0,
+          opacity: 1,
+          autoAlpha: 1,
+          filter: "blur(0px)",
+          stagger: 0.3,
+          ease: "power3.out"
+        });
+      } else {
+        // Initialiser les caractères comme cachés
+        gsap.set(itemSplitted.chars, {
+          autoAlpha: 0,
+          x: 100
+        });
+        tl.to(itemSplitted.chars, {
+          duration: 1,
+          delay: 0.5,
+          x: 0,
+          autoAlpha: 1,
+          stagger: 0.05
+        });
+      }
     });
   }
 }
@@ -225,6 +266,30 @@ export const textInvertAnim = (className: string) => {
 export const textInvertAnim1 = () => textInvertAnim('tp_text_invert');
 export const textInvertAnim2 = () => textInvertAnim('tp_text_invert_2');
 export const textInvertAnim3 = () => textInvertAnim('tp_text_invert_3');
+
+//Hero video fade animation (bas vers haut)
+export const heroVideoFadeAnimation = () => {
+  const heroVideo = document.querySelector<HTMLElement>(".tp-hero-video");
+  if (!heroVideo) return;
+
+  // Initialiser la vidéo avec un masque qui cache tout sauf le bas
+  gsap.set(heroVideo, {
+    visibility: "visible",
+    opacity: 0,
+    y: 50,
+    clipPath: "inset(100% 0 0 0)"
+  });
+
+  // Animation de révélation du bas vers le haut avec fade
+  gsap.to(heroVideo, {
+    opacity: 1,
+    y: 0,
+    clipPath: "inset(0% 0 0 0)",
+    duration: 2,
+    ease: "power3.out",
+    delay: 0.1
+  });
+};
 
 //Home Main Setup GSAP video animation
 export const videoAnimation = () => {
@@ -411,12 +476,17 @@ export function animationParagraph() {
     });
 
     const splitText = new SplitText(paragraph, { type: "lines" });
-    gsap.set(paragraph, { perspective: 400 });
-    tl.from(splitText.lines, {
+    gsap.set(paragraph, { perspective: 400, visibility: "visible" });
+    // Initialiser les lignes comme cachées
+    gsap.set(splitText.lines, {
+      opacity: 0,
+      rotationX: -80
+    });
+    tl.to(splitText.lines, {
       duration: 1,
       delay: 0.2,
-      opacity: 0,
-      rotationX: -80,
+      opacity: 1,
+      rotationX: 0,
       force3D: true,
       transformOrigin: "top center -50",
       stagger: 0.1

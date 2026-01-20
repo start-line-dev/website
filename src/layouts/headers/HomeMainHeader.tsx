@@ -18,8 +18,8 @@ const HomeMainHeader = () => {
             <div className={`tp-header-area tp-header-ptb tp-header-blur sticky-white-bg
          header-transparent border-style-line tp-header-border ${isSticky ? 'header-sticky' : ''}`}>
                 <div className="container container-1750">
-                    <div className="row align-items-center">
-                        <div className="col-xl-2 col-lg-6 col-6">
+                    <div className="d-flex align-items-center justify-content-between">
+                        <div>
                             <div className="tp-header-logo">
                                 <Link href="/">
                                     <Image width={120} className="logo-white" src={logoWhite} alt="logo-white" />
@@ -37,7 +37,7 @@ const HomeMainHeader = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-3 col-lg-6 col-6">
+                        <div>
                             <div className="tp-header-right d-flex align-items-center justify-content-end">
                                 <div className="tp-header-btn-box ml-25 d-flex">
                                     <Link href="/contact" className="tp-btn-black btn-red-bg">
