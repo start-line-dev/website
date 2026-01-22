@@ -3,7 +3,7 @@ import GlobalVideoModal from "@/components/Popup/GlobalVideoModal";
 import Wrapper from "@/layouts/wrapper";
 import AppProvider from "@/provider/AppProvider";
 import { VideoProvider } from "@/provider/VideoProvider";
-import { GoogleTagManager } from "@next/third-parties/google";
+import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 import type { Metadata } from "next";
 import { Besley, Inter, Onest, Phudu, Playfair_Display, Poppins, Satisfy, Space_Grotesk, Teko } from "next/font/google";
 import "swiper/css/bundle";
@@ -111,6 +111,7 @@ export default function RootLayout({
                     </Wrapper>
                 </AppProvider>
             </body>
+            <GoogleAnalytics gaId="G-H6VTRMN7FC" />
         </html>
     );
 }
