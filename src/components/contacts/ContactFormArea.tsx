@@ -1,5 +1,6 @@
 "use client"
 import React, { useState } from 'react';
+import { sendGAEvent } from '@next/third-parties/google';
 
 const ContactFormArea = () => {
     const [isSubmitting, setIsSubmitting] = useState(false);
@@ -32,6 +33,15 @@ const ContactFormArea = () => {
             const result = await response.json();
 
             if (response.ok) {
+                // Événement conversion Google (lead form) avec callback et timeout comme gtag
+                sendGAEvent(
+                    'event',
+                    'conversion_event_submit_lead_form',
+                    {
+                        event_callback: () => {},
+                        event_timeout: 2000,
+                    }
+                );
                 setResponseType('success');
                 setResponseMessage(result.message || 'Message envoyé avec succès!');
                 form.reset();

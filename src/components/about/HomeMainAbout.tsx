@@ -1,5 +1,4 @@
 import Image from "next/image";
-import aboutImgOne from "../../../public/assets/img/home-01/about/about-1.png";
 import aboutAvater from "../../../public/assets/img/home-01/about/about-avater.png";
 import aboutShape from "../../../public/assets/img/home-01/about/about-shape-1.png";
 
@@ -10,10 +9,10 @@ interface aboutPropsDT {
 
 const HomeMainAbout = ({ bgColur, spacingCls = "pb-120" }: aboutPropsDT) => {
     return (
-        <div className={`tp-about-area pt-140 ${spacingCls} tp-bounce-trigger`} style={{ backgroundColor: bgColur }}>
+        <div className={`tp-about-area pt-140 ${spacingCls}`} style={{ backgroundColor: bgColur }}>
             <div className="container">
                 <div className="tp-about-box p-relative">
-                    <div className="tp-about-shape-1 tp-bounce d-none d-md-block">
+                    <div className="tp-about-shape-1 d-none d-md-block">
                         <Image style={{ width: "100%", height: "auto" }} src={aboutShape} alt="about-shape" />
                     </div>
                     <div className="row">
@@ -31,12 +30,19 @@ const HomeMainAbout = ({ bgColur, spacingCls = "pb-120" }: aboutPropsDT) => {
                                     </p>
                                 </div>
                                 <div className="row">
-                                    <div className="col-xl-5 col-lg-4 col-md-5">
-                                        <div className="tp-about-thumb">
-                                            <Image style={{ width: "100%", height: "auto" }} data-speed=".8" src={aboutImgOne} alt="about-image" />
-                                        </div>
+                                    <div className="col-xl-7 col-lg-7 col-md-12 mb-4 mb-md-0">
+
+                                        <video
+                                            style={{ maxWidth: "600px", width: "100%", height: "auto", display: "block" }}
+                                            src="/assets/video/illu.mp4"
+                                            autoPlay
+                                            loop
+                                            muted
+                                            playsInline
+                                            aria-label="Illustration animée"
+                                        />
                                     </div>
-                                    <div className="col-xl-7 col-lg-8 col-md-7">
+                                    <div className="col-xl-4 col-lg-5 col-md-12">
                                         <div className="tp-about-funcact-wrap">
                                             <div className="tp-about-avater-info">
                                                 <Image className="tp_fade_anim" data-delay=".3"

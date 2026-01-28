@@ -27,10 +27,8 @@ const HomeMainService = () => {
                                     </div>
                                     <div className="col-xxl-5 col-xl-6 col-lg-7 col-md-7">
                                         <div className="tp-service-content">
-                                            <h4 className="tp-section-title">
-                                                <Link className="tp_text_invert" href={service.link}>
-                                                    {service.title}
-                                                </Link>
+                                            <h4 className="tp-section-title tp_text_invert">
+                                                {service.title}
                                             </h4>
                                             <p>
                                                 {service.description?.split('\n').map((line, i, arr) => (
