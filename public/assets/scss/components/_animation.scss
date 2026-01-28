@@ -12,6 +12,15 @@
     }
 }
 
+@keyframes tp-about-illustration-float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-8px);
+    }
+}
+
 @keyframes animationglob {
     0% {
         -webkit-transform: rotate(0deg);

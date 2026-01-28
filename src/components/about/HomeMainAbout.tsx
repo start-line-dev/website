@@ -31,16 +31,18 @@ const HomeMainAbout = ({ bgColur, spacingCls = "pb-120" }: aboutPropsDT) => {
                                 </div>
                                 <div className="row">
                                     <div className="col-xl-7 col-lg-7 col-md-12 mb-4 mb-md-0">
-
-                                        <video
-                                            style={{ maxWidth: "600px", width: "100%", height: "auto", display: "block" }}
-                                            src="/assets/video/illu.mp4"
-                                            autoPlay
-                                            loop
-                                            muted
-                                            playsInline
-                                            aria-label="Illustration animée"
-                                        />
+                                        <div className="tp-about-illustration-wrap tp_fade_anim" data-delay=".4" data-fade-from="left" data-ease="power2.out">
+                                            <video
+                                                className="tp-about-illustration-video"
+                                                style={{ maxWidth: "600px", width: "100%", height: "auto", display: "block" }}
+                                                src="/assets/video/illu.mp4"
+                                                autoPlay
+                                                loop
+                                                muted
+                                                playsInline
+                                                aria-label="Illustration animée"
+                                            />
+                                        </div>
                                     </div>
                                     <div className="col-xl-4 col-lg-5 col-md-12">
                                         <div className="tp-about-funcact-wrap">

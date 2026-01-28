@@ -51,6 +51,11 @@
             width: 100%;
         }
     }
+    &-illustration-wrap{
+        .tp-about-illustration-video{
+            animation: tp-about-illustration-float 4s ease-in-out infinite;
+        }
+    }
     &-funcact{
         &-wrap{
             margin-top: 25px;

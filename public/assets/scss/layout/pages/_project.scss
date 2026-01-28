@@ -57,12 +57,15 @@
     &-thumb{
         margin-bottom: 25px;
         position: relative;
-        & .tp--hover-img{
+        & .tp--hover-img,
+        & .tp-project-thumb-link{
             overflow: hidden;
+            display: block;
             & img{
                 width: 100%;
                 display: block;
                 object-fit: cover;
+                transition: transform 0.2s ease-out;
             }
             & canvas{
                 top: 0;
@@ -72,6 +75,12 @@
                 position: absolute;
             }
         }
+        & .tp-project-thumb-link:hover img{
+            transform: scale(1.05);
+        }
+    }
+    &-item:hover .tp-project-thumb .tp-project-thumb-link img{
+        transform: scale(1.05);
     }
     &-subtitle-wrap{
         & .tp-section-subtitle {
